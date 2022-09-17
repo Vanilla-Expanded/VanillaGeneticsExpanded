@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<RecipeDef>
+		<defName>GR_CompressedChemfuelToFuel</defName>
+		<label>make chemfuel from deepchem</label>
+		<description>Make a batch of chemfuel by converting deepchem.</description>
+		<jobString>Refining chemfuel from deepchem.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>4000</workAmount>
+		<recipeUsers>
+				<li>BiofuelRefinery</li>	  
+		</recipeUsers>	
+		<workSkill>Intellectual</workSkill>
+		<workSpeedStat>ResearchSpeed</workSpeedStat>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_CompressedChemfuel</li>
+				  </thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_CompressedChemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<Chemfuel>50</Chemfuel>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_ExtractMechaMilk</defName>
+		<label>process mechanoid milk</label>
+		<description>Extract useful materials from mechanoid milk.</description>
+		<jobString>Extracting useful materials from mechanoid milk.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>200</workAmount>
+		<recipeUsers>
+				<li>BiofuelRefinery</li>	  
+		</recipeUsers>	
+		<workSkill>Intellectual</workSkill>
+		<workSpeedStat>ResearchSpeed</workSpeedStat>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>GR_MechaMilk</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_MechaMilk</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<Chemfuel>25</Chemfuel>
+			<Silver>5</Silver>
+			<Neutroamine>3</Neutroamine>
+
+		</products>
+		
+	</RecipeDef>
+
+
+</Defs>
