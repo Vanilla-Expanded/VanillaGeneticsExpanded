@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_ThinHybridWool</defName>
+		<label>thin hybrid wool</label>
+		<description>Brittle, strange smelling wool. Not the best wool to craft apparel with, though it's better than nothing. Provides nice heat insulation.</description>
+		<graphicData>
+			<color>(235,227,93)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+			<color>(235,227,93)</color>
+		</stuffProps>
+	</ThingDef>
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_ThickHybridWool</defName>
+		<label>thick hybrid wool</label>
+		<description>Coarse, strong wool. Provides heat and cold protection, as well as decent defense.</description>
+		<graphicData>
+			<color>(219,214,209)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+			<StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.15</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.2</StuffPower_Armor_Heat>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+			<color>(219,214,209)</color>
+		</stuffProps>
+	</ThingDef>
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_LuxuriantHybridWool</defName>
+		<label>luxuriant hybrid wool</label>
+		<description>This wool is extremely thick and warm. Probably the best wool in the animal kingdom.</description>
+		<graphicData>
+			<color>(233,233,233)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<StuffPower_Insulation_Cold>36</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>34</StuffPower_Insulation_Heat>
+			<StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.4</StuffPower_Armor_Heat>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+			<color>(233,233,233)</color>
+		</stuffProps>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_HybridSilk</defName>
+		<label>hybrid silk</label>
+		<description>Fabric spun from silk fibers. Resists blunt and sharp damage easily, but provides almost no protection against extreme heat.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_SpunSilk</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(218,201,168)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>10</MarketValue>
+			<Mass>0.025</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>3</DeteriorationRate>
+			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0</commonality>
+			<color>(218,201,168)</color>
+		</stuffProps>
+	</ThingDef>
+	<ThingDef ParentName="LeatherBase">
+		<defName>GR_HybridChitin</defName>
+		<label>hybrid chitin</label>
+		<description>Overlapping plates of hardened chitin. Really durable in combat, but provides little protection from weather.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_Chitin</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(154,125,94)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>4.2</MarketValue>
+			<StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>6</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(154,125,94)</color>
+			<commonality>0</commonality>
+			<statFactors>
+				<MaxHitPoints>2</MaxHitPoints>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	<ThingDef ParentName="LeatherBase">
+		<defName>GR_HybridScales</defName>
+		<label>hybrid scales</label>
+		<description>Light, pliable sheets of scaly skin. Light, strong, and insulates well.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_ScalySkin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>8</MarketValue>
+			<Mass>0.01</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>3</DeteriorationRate>
+			<StuffPower_Armor_Heat>1.75</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			
+			<commonality>0</commonality>
+			<color>(0,116,6)</color>
+
+		</stuffProps>
+		
+	</ThingDef>
+	
+	
+	
+	
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_MechaWool</defName>
+		<label>mechanoid wool</label>
+		<description>This wool seems to be strengthened by plasteel micro-fibers, and covered with advanced circuitry.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_MechaWool</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>15</MarketValue>
+			<Mass>0.05</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>3</DeteriorationRate>
+			<StuffPower_Armor_Sharp>1.5</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>2.5</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>25</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0</commonality>
+			<color>(202,202,202)</color>
+		</stuffProps>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
+	</ThingDef>
+</Defs>
