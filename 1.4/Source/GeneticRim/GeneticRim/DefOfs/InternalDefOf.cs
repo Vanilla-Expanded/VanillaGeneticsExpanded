@@ -79,6 +79,7 @@ namespace GeneticRim
         public static HediffDef GR_SargSyndrome;
         public static HediffDef GR_GreaterScaria;
         public static HediffDef GR_SadisticAdrenaline;
+        public static HediffDef GR_HungerByQuality;
 
         public static ThingCategoryDef GR_GeneticMaterial;
         public static ThingCategoryDef GR_GeneticMaterialTierOne;

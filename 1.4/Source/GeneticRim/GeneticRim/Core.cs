@@ -50,6 +50,7 @@
                         if (!pawnKindDef.race.HasComp(typeof(CompHybrid)))
                             pawnKindDef.race.comps.Add(new CompProperties(typeof(CompHybrid)));
                     }
+                    
                 }
             }
         }
