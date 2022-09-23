@@ -195,10 +195,8 @@
 				<minSeverity>0</minSeverity>
 				<lifeThreatening>true</lifeThreatening>
 				<restFallFactor>0.01</restFallFactor>
-				<statOffsets>
-					<HungerRateMultiplier>-10</HungerRateMultiplier>
-					
-				</statOffsets>
+				<hungerRateFactorOffset>-10</hungerRateFactorOffset>
+				
 			</li>
 		</stages>
 	</HediffDef>

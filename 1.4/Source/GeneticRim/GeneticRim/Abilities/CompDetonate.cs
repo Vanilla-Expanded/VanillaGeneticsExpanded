@@ -35,9 +35,9 @@ namespace GeneticRim
             }
                 
             GenExplosion.DoExplosion(parent.pawn.Position, parent.pawn.Map, Props.radius, Props.damageType, parent.pawn, Props.damageAmount, Props.damagePenetration, Props.soundCreated, null, null, null, 
-                Props.thingCreated, Props.thingCreatedChance, 1, null,false, null, 0f, 1,Props.chanceToStartFire,false, null, ignoredThings);
+                null, 0f, 1, GasType.BlindSmoke, false, null, 0f, 1,Props.chanceToStartFire,false, null, ignoredThings);
 
-            
+           
 
         }
 

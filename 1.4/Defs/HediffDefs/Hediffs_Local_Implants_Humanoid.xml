@@ -609,39 +609,36 @@
 		<stages>
 			<li>
 				<minSeverity>0</minSeverity>
+				<hungerRateFactorOffset>-0.05</hungerRateFactorOffset>
 				<capMods>
 					<li>
 						<capacity>Metabolism</capacity>
 						<offset>0.01</offset>
 					</li>
 				</capMods>
-				<statOffsets>
-					<HungerRateMultiplier>-0.05</HungerRateMultiplier>
-				</statOffsets>
+				
 			</li>
 			<li>
 				<minSeverity>0.1</minSeverity>
+				<hungerRateFactorOffset>-0.1</hungerRateFactorOffset>
 				<capMods>
 					<li>
 						<capacity>Metabolism</capacity>
 						<offset>0.05</offset>
 					</li>
 				</capMods>
-				<statOffsets>
-					<HungerRateMultiplier>-0.1</HungerRateMultiplier>
-				</statOffsets>
+				
 			</li>
 			<li>
 				<minSeverity>0.2</minSeverity>
+				<hungerRateFactorOffset>-0.25</hungerRateFactorOffset>
 				<capMods>
 					<li>
 						<capacity>Metabolism</capacity>
 						<offset>0.1</offset>
 					</li>
 				</capMods>
-				<statOffsets>
-					<HungerRateMultiplier>-0.25</HungerRateMultiplier>
-				</statOffsets>
+				
 			</li>
 			<li>
 				<minSeverity>0.3</minSeverity>
@@ -651,9 +648,8 @@
 						<offset>0.125</offset>
 					</li>
 				</capMods>
-				<statOffsets>
-					<HungerRateMultiplier>-0.3</HungerRateMultiplier>
-				</statOffsets>
+				<hungerRateFactorOffset>-0.3</hungerRateFactorOffset>
+			
 			</li>
 			<li>
 				<minSeverity>0.4</minSeverity>
@@ -663,9 +659,8 @@
 						<offset>0.15</offset>
 					</li>
 				</capMods>
-				<statOffsets>
-					<HungerRateMultiplier>-0.4</HungerRateMultiplier>
-				</statOffsets>
+				<hungerRateFactorOffset>-0.4</hungerRateFactorOffset>
+			
 			</li>
 			<li>
 				<minSeverity>0.5</minSeverity>
@@ -675,9 +670,8 @@
 						<offset>0.175</offset>
 					</li>
 				</capMods>
-				<statOffsets>
-					<HungerRateMultiplier>-0.45</HungerRateMultiplier>
-				</statOffsets>
+				<hungerRateFactorOffset>-0.45</hungerRateFactorOffset>
+				
 			</li>
 			<li>
 				<minSeverity>0.6</minSeverity>
@@ -687,9 +681,8 @@
 						<offset>0.2</offset>
 					</li>
 				</capMods>
-				<statOffsets>
-					<HungerRateMultiplier>-0.5</HungerRateMultiplier>
-				</statOffsets>
+				<hungerRateFactorOffset>-0.5</hungerRateFactorOffset>
+			
 			</li>
 			
 		</stages>
@@ -1546,48 +1539,48 @@
 				<minSeverity>0</minSeverity>
 				<partEfficiencyOffset>-0.3</partEfficiencyOffset>
 				<statOffsets>
-					<ToxicSensitivity>-0.05</ToxicSensitivity>
+					<ToxicResistance>0.05</ToxicResistance>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.1</minSeverity>
 				<partEfficiencyOffset>-0.2</partEfficiencyOffset>
 				<statOffsets>
-					<ToxicSensitivity>-0.1</ToxicSensitivity>
+					<ToxicResistance>0.1</ToxicResistance>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.2</minSeverity>
 				<statOffsets>
-					<ToxicSensitivity>-0.15</ToxicSensitivity>
+					<ToxicResistance>0.15</ToxicResistance>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.3</minSeverity>
 				<partEfficiencyOffset>0.1</partEfficiencyOffset>
 				<statOffsets>
-					<ToxicSensitivity>-0.175</ToxicSensitivity>
+					<ToxicResistance>0.175</ToxicResistance>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.4</minSeverity>
 				<partEfficiencyOffset>0.15</partEfficiencyOffset>
 				<statOffsets>
-					<ToxicSensitivity>-0.2</ToxicSensitivity>
+					<ToxicResistance>0.2</ToxicResistance>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.5</minSeverity>
 				<partEfficiencyOffset>0.18</partEfficiencyOffset>
 				<statOffsets>
-					<ToxicSensitivity>-0.25</ToxicSensitivity>
+					<ToxicResistance>0.25</ToxicResistance>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.6</minSeverity>
 				<partEfficiencyOffset>0.2</partEfficiencyOffset>
 				<statOffsets>
-					<ToxicSensitivity>-0.3</ToxicSensitivity>
+					<ToxicResistance>0.3</ToxicResistance>
 				</statOffsets>
 			</li>
 			

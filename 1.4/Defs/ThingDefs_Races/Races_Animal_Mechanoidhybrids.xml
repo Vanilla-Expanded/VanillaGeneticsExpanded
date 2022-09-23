@@ -11,7 +11,7 @@
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
 			<ComfyTemperatureMax>250</ComfyTemperatureMax>
 			<PsychicSensitivity>0</PsychicSensitivity>
-			<ToxicSensitivity>0</ToxicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
 			<Flammability>0</Flammability>
 			<MarketValue>3000</MarketValue>
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
@@ -146,7 +146,7 @@
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
 			<ComfyTemperatureMax>250</ComfyTemperatureMax>
 			<PsychicSensitivity>0</PsychicSensitivity>
-			<ToxicSensitivity>0</ToxicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
 			<Flammability>0</Flammability>
 			<MarketValue>3000</MarketValue>
 			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
@@ -289,7 +289,7 @@
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
 			<ComfyTemperatureMax>250</ComfyTemperatureMax>
 			<PsychicSensitivity>0</PsychicSensitivity>
-			<ToxicSensitivity>0</ToxicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
 			<Flammability>0</Flammability>
 			<MarketValue>1500</MarketValue>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
@@ -432,7 +432,7 @@
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
 			<ComfyTemperatureMax>250</ComfyTemperatureMax>
 			<PsychicSensitivity>0</PsychicSensitivity>
-			<ToxicSensitivity>0</ToxicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
 			<Flammability>0</Flammability>
 			<MarketValue>3500</MarketValue>
 			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
@@ -566,7 +566,7 @@
 			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
 			<ComfyTemperatureMax>250</ComfyTemperatureMax>
 			<PsychicSensitivity>0</PsychicSensitivity>
-			<ToxicSensitivity>0</ToxicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
 			<Flammability>0</Flammability>
 			<MarketValue>3500</MarketValue>
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
@@ -713,7 +713,7 @@
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
 			<ComfyTemperatureMax>250</ComfyTemperatureMax>
 			<PsychicSensitivity>0</PsychicSensitivity>
-			<ToxicSensitivity>0</ToxicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
 			<Flammability>0</Flammability>
 			<MarketValue>500</MarketValue>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
@@ -847,7 +847,7 @@
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
 			<ComfyTemperatureMax>250</ComfyTemperatureMax>
 			<PsychicSensitivity>0</PsychicSensitivity>
-			<ToxicSensitivity>0</ToxicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
 			<Flammability>0</Flammability>
 			<MarketValue>2000</MarketValue>
 			<ArmorRating_Blunt>0.9</ArmorRating_Blunt>
@@ -981,7 +981,7 @@
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
 			<ComfyTemperatureMax>250</ComfyTemperatureMax>
 			<PsychicSensitivity>0</PsychicSensitivity>
-			<ToxicSensitivity>0</ToxicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
 			<Flammability>0</Flammability>
 			<MarketValue>2000</MarketValue>
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
@@ -1115,7 +1115,7 @@
 			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
 			<ComfyTemperatureMax>350</ComfyTemperatureMax>
 			<PsychicSensitivity>0</PsychicSensitivity>
-			<ToxicSensitivity>0</ToxicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
 			<Flammability>0</Flammability>
 			<MarketValue>4000</MarketValue>
 			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
@@ -1257,7 +1257,7 @@
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
 			<ComfyTemperatureMax>250</ComfyTemperatureMax>
 			<PsychicSensitivity>0</PsychicSensitivity>
-			<ToxicSensitivity>0</ToxicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
 			<Flammability>0</Flammability>
 			<MarketValue>1800</MarketValue>
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
@@ -1395,7 +1395,7 @@
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
 			<ComfyTemperatureMax>250</ComfyTemperatureMax>
 			<PsychicSensitivity>0</PsychicSensitivity>
-			<ToxicSensitivity>0</ToxicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
 			<Flammability>0</Flammability>
 			<MarketValue>1800</MarketValue>
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
@@ -1557,7 +1557,7 @@
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
 			<ComfyTemperatureMax>250</ComfyTemperatureMax>
 			<PsychicSensitivity>0</PsychicSensitivity>
-			<ToxicSensitivity>0</ToxicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
 			<Flammability>0</Flammability>
 			<MarketValue>1800</MarketValue>
 			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>

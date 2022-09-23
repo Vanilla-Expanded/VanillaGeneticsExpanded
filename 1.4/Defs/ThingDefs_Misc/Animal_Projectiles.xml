@@ -106,9 +106,7 @@
 			<damageDef>Smoke</damageDef>
 			<damageAmountBase>1</damageAmountBase>
 			<explosionDelay>1</explosionDelay>
-			<postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef>
-			<postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
-			<postExplosionSpawnChance>1</postExplosionSpawnChance>
+			
 
 		</projectile>
 	</ThingDef>

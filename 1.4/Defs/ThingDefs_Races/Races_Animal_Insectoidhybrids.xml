@@ -3,7 +3,7 @@
 	<!-- Custom base to avoid them appearing dormant in quests -->
 	<ThingDef Abstract="True" ParentName="AnimalThingBase" Name="GR_BaseInsect">
 		<statBases>
-			<ToxicSensitivity>0</ToxicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
 		</statBases>
 		<race>
@@ -390,7 +390,7 @@
 		<label>muffalopede</label>
 		<description>An oversized grub with udders that extrude jelly instead of milk, its hard-headedness serves it well in both getting what it wants and nutting anyone foolish enough to think they’re better than them. Allegedly there was a case where the owner was prevented from shearing the creature for so long that the overlapping plates completely prevented it from moving, who was afterwards thanked with a kick in the nether region.\n\nAn insectoid hybrid with recessive muffalo genes. Higher metabolism compared to other insectoid hybrids as well as stubborn, any predator foolish enough to think of them as an easy meal will be responded with a headbutt like a sledgehammer. Can work as a pack animal but refuses to haul comparatively heavy loads. Regularly produces precious jelly and can be sheared for chitin, which overlaps and protects the animal well from blunt attacks.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; All insectoid hybrids have good armor and no toxic sensitivity, but they are always sterile and can't reproduce, even if a fertility booster is used to create them.</description>
 		<statBases>
-			<ToxicSensitivity>0</ToxicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
 			<MoveSpeed>4.3</MoveSpeed>
 			<ComfyTemperatureMin>-60</ComfyTemperatureMin>
 			<MarketValue>500</MarketValue>

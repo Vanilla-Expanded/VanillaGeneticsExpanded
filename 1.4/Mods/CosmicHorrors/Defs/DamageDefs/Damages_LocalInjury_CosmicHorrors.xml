@@ -20,12 +20,12 @@
 			<li>
 				<hediff>GR_HairballDamage</hediff>
 				<severityPerDamageDealt>0.075</severityPerDamageDealt>
-				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 			</li>
 			<li>
 				<hediff>ROM_SanityLoss</hediff>
 				<severityPerDamageDealt>0.075</severityPerDamageDealt>
-				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>

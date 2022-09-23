@@ -19,8 +19,8 @@
         <min>40</min>
         <max>45</max>
       </expireSeconds>
-      <blockTurretTracking>true</blockTurretTracking>
-      <accuracyPenalty>0.15</accuracyPenalty>
+     <!-- <blockTurretTracking>true</blockTurretTracking>
+      <accuracyPenalty>0.15</accuracyPenalty>-->
       <rotationSpeed>10</rotationSpeed>
     </gas>
   </ThingDef>

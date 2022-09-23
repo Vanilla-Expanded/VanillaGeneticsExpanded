@@ -259,9 +259,9 @@
 			<li Class="GeneticRim.CompProperties_Detonate">
 				<radius>2.9</radius>
 				<damageType>Stun</damageType>
-				<thingCreated>Gas_Smoke</thingCreated>
+			
 				<soundCreated>Explosion_Bomb</soundCreated>
-				<thingCreatedChance>0.75</thingCreatedChance>
+				
 				<damageUser>true</damageUser>
 				<damageAmount>15</damageAmount>
 			</li>

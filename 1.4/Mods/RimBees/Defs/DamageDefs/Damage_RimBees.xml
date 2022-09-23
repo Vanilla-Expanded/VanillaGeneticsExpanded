@@ -13,7 +13,7 @@
 			<li>
 				<hediff>RB_ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 			</li>
 		</additionalHediffs>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
@@ -33,7 +33,7 @@
 			<li>
 				<hediff>RB_ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.05</severityPerDamageDealt>
-				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 			</li>
 		</additionalHediffs>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
@@ -53,7 +53,7 @@
 			<li>
 				<hediff>RB_ChemfuelBuildup</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 			</li>
 		</additionalHediffs>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
@@ -73,7 +73,7 @@
 			<li>
 				<hediff>RB_BlindingBuildup</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 			</li>
 		</additionalHediffs>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
@@ -93,7 +93,7 @@
 			<li>
 				<hediff>RB_ParalysisBuildup</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 			</li>
 		</additionalHediffs>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
@@ -117,7 +117,7 @@
 			<li>
 				<hediff>GR_ToxicDamage</hediff>
 				<severityPerDamageDealt>0.035</severityPerDamageDealt>
-				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 
 
 			</li>
