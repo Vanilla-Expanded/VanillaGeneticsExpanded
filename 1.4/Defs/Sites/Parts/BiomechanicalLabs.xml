@@ -5,7 +5,7 @@
 		<label>biomechanical lab complex</label>
 		<description>A recently-discovered biomechanical lab complex.</description>
 		<siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
-		<expandingIconTexture>ui/BiomechanicalLabComplex</expandingIconTexture>
+		<expandingIconTexture>UI/BiomechanicalLabComplex</expandingIconTexture>
 		<tags>
 			<li>GR_BiomechanicalLab</li>
 		</tags>

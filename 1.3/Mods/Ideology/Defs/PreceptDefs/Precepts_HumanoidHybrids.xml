@@ -3,7 +3,7 @@
 	<IssueDef>
 		<defName>GR_HumanoidHybrids</defName>
 		<label>humanoid hybrids</label>
-		<iconPath>ui/Precepts/GR_HumanoidHybrids</iconPath>
+		<iconPath>UI/Precepts/GR_HumanoidHybrids</iconPath>
 	</IssueDef>
 	<!-- Precepts -->
 	<PreceptDef>

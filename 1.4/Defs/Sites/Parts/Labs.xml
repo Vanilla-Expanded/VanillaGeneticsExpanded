@@ -5,7 +5,7 @@
 		<label>abandoned lab</label>
 		<description>A recently-discovered abandoned lab.</description>
 		<siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
-		<expandingIconTexture>ui/AbandonedLab</expandingIconTexture>
+		<expandingIconTexture>UI/AbandonedLab</expandingIconTexture>
 		<tags>
 			<li>GR_AbandonedLab</li>
 		</tags>

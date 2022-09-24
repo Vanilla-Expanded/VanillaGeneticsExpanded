@@ -126,7 +126,7 @@ namespace GeneticRim
 
                 command_Action.defaultDesc = "GR_BeginArchotechCentipedeDesc".Translate();
                 command_Action.defaultLabel = "GR_BeginArchotechCentipede".Translate();
-                command_Action.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_AwakenArchotech", true);
+                command_Action.icon = ContentFinder<Texture2D>.Get("UI/commands/GR_AwakenArchotech", true);
                 command_Action.hotKey = KeyBindingDefOf.Misc1;
                 command_Action.action = delegate
                 {

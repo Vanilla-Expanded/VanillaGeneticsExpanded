@@ -5,7 +5,7 @@
 		<defName>GR_Stamina</defName>
 		<label>greater stamina</label>
 		<description>Makes the creature more resistant to damage for a while.</description>
-		<iconPath>ui/commands/GR_Stamina</iconPath>
+		<iconPath>UI/commands/GR_Stamina</iconPath>
 		<groupDef>GR_TwiceDayAbilitiesGroup</groupDef>
 		<comps>
 			<li Class="GeneticRim.CompProperties_GiveHediff">

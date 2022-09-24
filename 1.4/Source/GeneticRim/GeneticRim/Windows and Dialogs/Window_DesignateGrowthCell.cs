@@ -19,9 +19,9 @@ namespace GeneticRim
         public const int BottomButtonWidth = 190;
         public const int SelectionButtonWidth = 190;
 
-        public static readonly Texture2D Hexagon = ContentFinder<Texture2D>.Get("ui/GeneticsUI_Hexagon");
-        public static readonly Texture2D Arrow = ContentFinder<Texture2D>.Get("ui/GeneticsUI_Arrow");
-        public static readonly Texture2D ArrowTwoWays = ContentFinder<Texture2D>.Get("ui/GeneticsUI_ArrowTwoWays");
+        public static readonly Texture2D Hexagon = ContentFinder<Texture2D>.Get("UI/GeneticsUI_Hexagon");
+        public static readonly Texture2D Arrow = ContentFinder<Texture2D>.Get("UI/GeneticsUI_Arrow");
+        public static readonly Texture2D ArrowTwoWays = ContentFinder<Texture2D>.Get("UI/GeneticsUI_ArrowTwoWays");
 
         public CompGenomorpher comp;
         public Thing genomeDominant;

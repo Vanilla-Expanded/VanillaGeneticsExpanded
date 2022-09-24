@@ -28,7 +28,7 @@ namespace GeneticRim
             {
                 defaultDesc = "GR_SelectAnimalToHarvestDesc".Translate(),
                 defaultLabel = "GR_SelectAnimalToHarvest".Translate(),
-                icon = ContentFinder<Texture2D>.Get("ui/commands/GR_BringAnimal", true),
+                icon = ContentFinder<Texture2D>.Get("UI/commands/GR_BringAnimal", true),
                 hotKey = KeyBindingDefOf.Misc1,
                 map = map,
                 building = building,
@@ -43,7 +43,7 @@ namespace GeneticRim
             {
                 defaultDesc = "GR_SelectParagonToConvertDesc".Translate(),
                 defaultLabel = "GR_SelectParagonToConvert".Translate(),
-                icon = ContentFinder<Texture2D>.Get("ui/commands/MechahybridizeParagon", true),
+                icon = ContentFinder<Texture2D>.Get("UI/commands/MechahybridizeParagon", true),
                 hotKey = KeyBindingDefOf.Misc1,
                 map = map,
                 building = building

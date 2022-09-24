@@ -106,7 +106,7 @@
 		<label>orbital heat ray</label>
 		<groupDef>GR_ThriceDayAbilitiesGroup</groupDef>
 		<description>Redirects an orbital mechanoid satellite to fire upon a selected location.</description>
-		<iconPath>ui/commands/GR_Orbital</iconPath>
+		<iconPath>UI/commands/GR_Orbital</iconPath>
 		<verbProperties>
 			<range>200</range>
 		</verbProperties>
@@ -120,7 +120,7 @@
 		<defName>GR_SetTrap</defName>
 		<label>set chemfuel trap</label>
 		<description>Sets an explosive trap. The Manalope won't trigger it.</description>
-		<iconPath>ui/commands/GR_SetTrap</iconPath>
+		<iconPath>UI/commands/GR_SetTrap</iconPath>
 		<groupDef>GR_EveryThreeDaysAbilitiesGroup</groupDef>
 		<comps>
 			<li Class="GeneticRim.CompProperties_CreateThingDefAround">
@@ -152,7 +152,7 @@
 		<defName>GR_VentHeatedExhaust</defName>
 		<label>vent heated exhaust</label>
 		<description>Vents the heated gasses produced by this mechanoid hybrid's internal processes. This creates a wave of superheated ait that will affect the surrounding tiles. It will not affect the hybrid.</description>
-		<iconPath>ui/commands/GR_MechaBlast</iconPath>
+		<iconPath>UI/commands/GR_MechaBlast</iconPath>
 		<warmupStartSound>GR_Wick</warmupStartSound>
 		<verbProperties>
 			<range>1.9</range>
@@ -192,7 +192,7 @@
 		<defName>GR_PoisonousCloud</defName>
 		<label>release venomous cloud</label>
 		<description>Releases a cloud of poisonous gas from this creature. The animal will NOT be affected and damaged by it.</description>
-		<iconPath>ui/commands/GR_PoisonousCloud</iconPath>
+		<iconPath>UI/commands/GR_PoisonousCloud</iconPath>
 		<warmupStartSound>GR_Gas</warmupStartSound>
 		<verbProperties>
 			<range>2.9</range>
@@ -306,7 +306,7 @@
 		<defName>GR_AdrenalineRush</defName>
 		<label>adrenaline rush</label>
 		<description>Causes the creature to move much faster for a while, at the cost of getting tired afterwards for almost half a day.</description>
-		<iconPath>ui/commands/GR_AdrenalineBurst</iconPath>
+		<iconPath>UI/commands/GR_AdrenalineBurst</iconPath>
 		<groupDef>GR_TwiceDayAbilitiesGroup</groupDef>
 		<comps>
 			<li Class="GeneticRim.CompProperties_GiveHediff">
@@ -318,7 +318,7 @@
 		<defName>GR_CatReflexes</defName>
 		<label>cat reflexes</label>
 		<description>Makes the creature much more agile, improving its chance to dodge melee attacks even further.</description>
-		<iconPath>ui/commands/GR_CatReflexes</iconPath>
+		<iconPath>UI/commands/GR_CatReflexes</iconPath>
 		<groupDef>GR_TwiceDayAbilitiesGroup</groupDef>
 		<comps>
 			<li Class="GeneticRim.CompProperties_GiveHediff">
@@ -330,7 +330,7 @@
 		<defName>GR_InsectClouds</defName>
 		<label>insect clouds</label>
 		<description>Spawns a cloud of drones surrounding this animal that will cut apart any creature, excluding all insectoid paragons.</description>
-		<iconPath>ui/commands/GR_Insectclouds</iconPath>
+		<iconPath>UI/commands/GR_Insectclouds</iconPath>
 		<groupDef>GR_TwiceDayAbilitiesGroup</groupDef>
 		<comps>
 			<li Class="GeneticRim.CompProperties_GiveHediff">
@@ -354,7 +354,7 @@
 		<defName>GR_StampedeClouds</defName>
 		<label>stampede</label>
 		<description>Stampedes, moving faster and creating dust clouds that block line of view for projectile weapons. Gets the creature tired after a while.</description>
-		<iconPath>ui/commands/GR_StampedeClouds</iconPath>
+		<iconPath>UI/commands/GR_StampedeClouds</iconPath>
 		<groupDef>GR_TwiceDayAbilitiesGroup</groupDef>
 		<comps>
 			<li Class="GeneticRim.CompProperties_GiveHediff">
@@ -366,7 +366,7 @@
 		<defName>GR_KeenSenses</defName>
 		<label>keen senses</label>
 		<description>Makes the creature more aware of its surroundings, increasing its melee capacities (affects sight, hit chance and consciousness)</description>
-		<iconPath>ui/commands/GR_KeenSenses</iconPath>
+		<iconPath>UI/commands/GR_KeenSenses</iconPath>
 		<groupDef>GR_TwiceDayAbilitiesGroup</groupDef>
 		<comps>
 			<li Class="GeneticRim.CompProperties_GiveHediff">
@@ -378,7 +378,7 @@
 		<defName>GR_PackTactics</defName>
 		<label>pack tactics</label>
 		<description>Collaborate with other nearby muffalowolves to bring down prey.</description>
-		<iconPath>ui/commands/GR_PackTactics</iconPath>
+		<iconPath>UI/commands/GR_PackTactics</iconPath>
 		<comps>
 			<li Class="CompProperties_AbilityGiveHediff">
 				<compClass>CompAbilityEffect_GiveHediff</compClass>
@@ -393,7 +393,7 @@
 		<defName>GR_ResearchDrive</defName>
 		<label>research drive</label>
 		<description>Offer investigative insights to nearby researches, allowing them to more easily reach a breakthrough.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; "My fellow scientist, have you considered rejecting humanity, and returning to monkey? Food for thought".</description>
-		<iconPath>ui/commands/GR_Microscope</iconPath>
+		<iconPath>UI/commands/GR_Microscope</iconPath>
 		<comps>
 			<li Class="CompProperties_AbilityGiveHediff">
 				<compClass>CompAbilityEffect_GiveHediff</compClass>
@@ -413,7 +413,7 @@
 		<castTime>60</castTime>
 		<range>15</range>
 		<cooldownTime>5000</cooldownTime>
-		<iconPath>ui/commands/GR_Pounce</iconPath>
+		<iconPath>UI/commands/GR_Pounce</iconPath>
 	</VFECore.Abilities.AbilityDef>
 	<ThingDef ParentName="PawnFlyerBase">
 		<defName>GR_SlowFlyer</defName>
@@ -433,7 +433,7 @@
 		<power>100</power>
 		<range>15</range>
 		<cooldownTime>5000</cooldownTime>
-		<iconPath>ui/commands/GR_StraightCharge</iconPath>
+		<iconPath>UI/commands/GR_StraightCharge</iconPath>
 	</VFECore.Abilities.AbilityDef>
 	<ThingDef ParentName="PawnFlyerBase">
 		<defName>GR_StraightFlyer</defName>

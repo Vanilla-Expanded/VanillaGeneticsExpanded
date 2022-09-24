@@ -3,7 +3,7 @@
 	<IssueDef>
 		<defName>GR_WorktableSpeeds</defName>
 		<label>genetic worktable speed</label>
-		<iconPath>ui/Precepts/GR_WorktableSpeeds</iconPath>
+		<iconPath>UI/Precepts/GR_WorktableSpeeds</iconPath>
 	</IssueDef>
 	<!-- Precepts -->
 	<PreceptDef>

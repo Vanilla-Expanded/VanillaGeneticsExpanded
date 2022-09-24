@@ -3,7 +3,7 @@
 	<IssueDef>
 		<defName>GR_Failures</defName>
 		<label>genetic failures</label>
-		<iconPath>ui/Precepts/GR_Failures</iconPath>
+		<iconPath>UI/Precepts/GR_Failures</iconPath>
 	</IssueDef>
 	<!-- Precepts -->
 	<PreceptDef>
