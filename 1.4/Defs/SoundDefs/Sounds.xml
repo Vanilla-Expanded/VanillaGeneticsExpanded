@@ -8,8 +8,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>GR_FireBreath</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>GR_FireBreath</clipPath>
 					</li>
 				</grains>
 				<pitchRange>
@@ -27,8 +27,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>GR_Beep</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>GR_Beep</clipPath>
 					</li>
 				</grains>
 				<pitchRange>
@@ -46,8 +46,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>GR_Singularity</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>GR_Singularity</clipPath>
 					</li>
 				</grains>
 				<pitchRange>
@@ -65,8 +65,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>GR_PoisonBreath</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>GR_PoisonBreath</clipPath>
 					</li>
 				</grains>
 				<pitchRange>
@@ -103,8 +103,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>GR_Gas</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>GR_Gas</clipPath>
 					</li>
 				</grains>
 				<pitchRange>
@@ -122,8 +122,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>GR_Wick</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>GR_Wick</clipPath>
 					</li>
 				</grains>
 				<pitchRange>
@@ -141,8 +141,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>GR_Spill</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>GR_Spill</clipPath>
 					</li>
 				</grains>
 				<pitchRange>
@@ -160,8 +160,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>GR_Pop</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>GR_Pop</clipPath>
 					</li>
 				</grains>
 				<pitchRange>
@@ -255,8 +255,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>GR_GreatApe/Pawn_Ape_Angry</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>GR_GreatApe/Pawn_Ape_Angry</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -282,8 +282,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>GR_GreatApe/Pawn_Ape_Wounded</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>GR_GreatApe/Pawn_Ape_Wounded</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -310,8 +310,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>GR_GreatApe/Pawn_Ape_Death</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>GR_GreatApe/Pawn_Ape_Death</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -337,8 +337,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>GR_GreatApe/Pawn_Ape_Call</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>GR_GreatApe/Pawn_Ape_Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
