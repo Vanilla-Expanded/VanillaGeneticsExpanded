@@ -9,8 +9,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>RB_HybridBee/RB_HybridBee_Angry</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>RB_HybridBee/RB_HybridBee_Angry</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -37,8 +37,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>RB_HybridBee/RB_HybridBee_Wounded</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>RB_HybridBee/RB_HybridBee_Wounded</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -66,8 +66,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>RB_HybridBee/RB_HybridBee_Death</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>RB_HybridBee/RB_HybridBee_Death</clipPath>
           </li>
         </grains>
         <volumeRange>
