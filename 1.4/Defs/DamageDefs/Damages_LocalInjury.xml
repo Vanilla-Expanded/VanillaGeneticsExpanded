@@ -16,6 +16,8 @@
 		<additionalHediffs>
 			<li>
 				<hediff>GR_RabidSlash</hediff>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -41,6 +43,7 @@
 				<hediff>VEF_AcidBuildup</hediff>
 				<severityPerDamageDealt>0.02</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 		<isRanged>true</isRanged>
@@ -53,6 +56,8 @@
 		<additionalHediffs>
 			<li>
 				<hediff>GR_BloodFrenzy</hediff>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -64,6 +69,7 @@
 				<hediff>ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.005</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -75,6 +81,7 @@
 				<hediff>ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.0005</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -86,6 +93,7 @@
 				<hediff>GR_HairballDamage</hediff>
 				<severityPerDamageDealt>0.075</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -97,6 +105,7 @@
 				<hediff>GR_HairballDamage</hediff>
 				<severityPerDamageDealt>0.075</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -115,6 +124,7 @@
 				<hediff>GR_ToxicDamage</hediff>
 				<severityPerDamageDealt>0.035</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -133,6 +143,7 @@
 				<hediff>GR_ToxicDamage</hediff>
 				<severityPerDamageDealt>0.0035</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -151,6 +162,7 @@
 				<hediff>GR_HairballDamage</hediff>
 				<severityPerDamageDealt>0.0001</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -162,6 +174,7 @@
 				<hediff>Plague</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
