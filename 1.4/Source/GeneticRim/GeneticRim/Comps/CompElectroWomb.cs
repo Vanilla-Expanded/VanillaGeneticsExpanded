@@ -32,10 +32,13 @@ namespace GeneticRim
         public float progress;
 
         bool failure;
+        bool failureBecauseTooSmall;
 
         public int hoursProcess =1;
 
         Graphic usedGraphic;
+
+        System.Random random = new System.Random();
 
         public CompPowerTrader compPowerTrader;
 
@@ -67,7 +70,7 @@ namespace GeneticRim
             Scribe_Values.Look(ref this.progress, nameof(this.progress));
             Scribe_Values.Look(ref this.hoursProcess, nameof(this.hoursProcess));
             Scribe_Values.Look(ref this.failure, nameof(this.failure));
-
+            Scribe_Values.Look(ref this.failureBecauseTooSmall, nameof(this.failureBecauseTooSmall));
 
         }
 
@@ -92,7 +95,8 @@ namespace GeneticRim
                                                                                          forceGenerateNewPawn: true));
                             if(!GeneticRim_Mod.settings.GR_DisableWombAlerts)
                             {
-                                Messages.Message("GR_ElectroWomb_Finished_Failure".Translate(), this.parent, MessageTypeDefOf.NegativeEvent, true);
+                                if (failureBecauseTooSmall) { Messages.Message("GR_ElectroWomb_Finished_Failure_TooSmall".Translate(), this.parent, MessageTypeDefOf.NegativeEvent, true); }
+                                else Messages.Message("GR_ElectroWomb_Finished_Failure".Translate(), this.parent, MessageTypeDefOf.NegativeEvent, true);
                             }
 
                         }
@@ -289,6 +293,9 @@ namespace GeneticRim
         {
             CompGrowthCell growthComp = growthCell.TryGetComp<CompGrowthCell>();
 
+            failure = false;
+            failureBecauseTooSmall = false;
+
             PawnKindDef result = Core.GetHybrid(growthComp.genomeDominant, growthComp.genomeSecondary, growthComp.genoframe, growthComp.booster,
                                               out float swapChance, out float failureChance, out PawnKindDef swapResult, out PawnKindDef failureResult);
 
@@ -315,20 +322,34 @@ namespace GeneticRim
                 result = swap ? swapResult : result;
             }
 
+            //Log.Message("Failure chance was "+failureChance);
+
             if (failureChance != 0)
             {
-                failure = Rand.Chance(failureChance);
+                double randomFailureResult = random.NextDouble();
+                //Log.Message("Failure result was " + randomFailureResult);
+                if (randomFailureResult > 1 - failureChance)
+                {
+                    failure = true;
+
+                }
                 this.failureResult = failureResult;
             }
             
             this.growingResult = result;
             this.progress = 0;
 
-            if (result == null || result.RaceProps.baseBodySize > this.Props.maxBodySize)
+            if (result == null)
             {
                 failure = true;
             }
-          
+
+            if (result?.RaceProps.baseBodySize > this.Props.maxBodySize)
+            {
+                failure = true;
+                failureBecauseTooSmall = true;
+            }
+
 
         }
     }

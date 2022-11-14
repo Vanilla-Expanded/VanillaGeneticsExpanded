@@ -75,6 +75,7 @@
 	<GR_ElectroWomb_Progress>Progress: {0}</GR_ElectroWomb_Progress>
 	<GR_ElectroWomb_Finished>A creature has hatched from an electrowomb</GR_ElectroWomb_Finished>
 	<GR_ElectroWomb_Finished_Failure>A creature has hatched from an electrowomb... but something went terribly wrong!</GR_ElectroWomb_Finished_Failure>
+	<GR_ElectroWomb_Finished_Failure_TooSmall>The electrowomb was too small for this creature... something went terribly wrong!</GR_ElectroWomb_Finished_Failure_TooSmall>
 	<GR_MustPlaceRoofed>This building needs to be placed in an indoors, roofed area</GR_MustPlaceRoofed>
 	<!-- DNA Storage -->
 	<GR_SelectGenomeToHarvest>Select genome to harvest</GR_SelectGenomeToHarvest>
