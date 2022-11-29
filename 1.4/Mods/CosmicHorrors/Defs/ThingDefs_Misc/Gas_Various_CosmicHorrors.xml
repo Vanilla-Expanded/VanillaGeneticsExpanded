@@ -4,7 +4,7 @@
 
 
   
-   <ThingDef ParentName="BaseGas">
+   <ThingDef ParentName="GR_BaseGas">
     <defName>GR_Insanity_Cloud</defName>
     <label>insanity cloud</label>
 	<thingClass>GeneticRim.Gas_InsanityCloud</thingClass>
