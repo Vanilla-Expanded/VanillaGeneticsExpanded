@@ -45,6 +45,7 @@
 				<restFallFactor>0.5</restFallFactor>
 			</li>
 		</stages>
+		<isBad>false</isBad>
 	</HediffDef>
 	<HediffDef>
 		<defName>GR_VeryLowRest</defName>
@@ -58,6 +59,7 @@
 				<restFallFactor>0.01</restFallFactor>
 			</li>
 		</stages>
+		<isBad>false</isBad>
 	</HediffDef>
 	<HediffDef>
 		<defName>GR_PackTactics</defName>
@@ -841,6 +843,7 @@
 				</statOffsets>
 			</li>
 		</stages>
+		<isBad>false</isBad>
 	</HediffDef>
 	<HediffDef>
 		<defName>GR_MeleeDodge</defName>
@@ -856,6 +859,7 @@
 				</statOffsets>
 			</li>
 		</stages>
+		<isBad>false</isBad>
 	</HediffDef>
 	<HediffDef>
 		<defName>GR_SadisticAdrenaline</defName>
