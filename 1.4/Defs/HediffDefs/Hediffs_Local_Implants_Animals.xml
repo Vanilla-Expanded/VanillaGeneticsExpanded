@@ -26,6 +26,7 @@
 				<makeNonFleeingToo>true</makeNonFleeingToo>
 			</li>
 		</comps>
+		<isBad>false</isBad>
 	</HediffDef>
 	
 	<!--=============== Animal Hybrid Implants ====================-->
