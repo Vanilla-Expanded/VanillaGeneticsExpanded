@@ -384,7 +384,7 @@
 			<MoveSpeed>2</MoveSpeed>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
 			<MarketValue>120</MarketValue>
-			<MeatAmount>0</MeatAmount>
+			
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
 			<FilthRate>4</FilthRate>
 		</statBases>
@@ -465,7 +465,7 @@
 			<manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
 			<useLeatherFrom>AA_Needlepost</useLeatherFrom>
-			<useMeatFrom>Chicken</useMeatFrom>
+			<specificMeatDef>AA_CactusMeat</specificMeatDef>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -488,9 +488,7 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-		<butcherProducts>
-			<AA_CactusMeat>2</AA_CactusMeat>
-		</butcherProducts>
+		
 		<tradeTags>
 			<li>AnimalGenetic</li>
 			<li>NonContractable</li>
