@@ -4,7 +4,7 @@
 	<RecipeDef ParentName="GR_ExcavatorRecipeBase">
 		<defName>GR_CraftDinoGenomeExcavator</defName>
 		<label>Craft Dino Genome excavator</label>
-		<description>Craft a genome excavator to extract genomes from tamed or dead animals. This excavator can extract Dinosauria genomes.</description>
+		<description>Craft a genome excavator to extract genomes from tamed or dead animals. This excavator can extract Dinosauria and Biomes! Prehistoric genomes.</description>
 		<ingredients>
 			<li>
 				<filter>

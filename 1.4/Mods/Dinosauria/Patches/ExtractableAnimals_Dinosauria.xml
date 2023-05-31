@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dinosauria</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/GeneticRim.ExtractableAnimalsList[defName = "GR_Dinosauria"]/extractableAnimals</xpath>
+			<value>
+				<li>TyrannosaurusRex</li>
+				<li>Yutyrannus</li>
+				<li>Carnotaurus</li>
+				<li>Allosaurus</li>
+				<li>Spinosaurus</li>
+				<li>Baryonyx</li>
+				<li>Ankylosaurus</li>
+				<li>Minmi</li>
+				<li>Brachiosaurus</li>
+				<li>Brontosaurus</li>
+				<li>Diplodocus</li>
+				<li>Magyarosaurus</li>
+				<li>Utahraptor</li>
+				<li>Dakotaraptor</li>
+				<li>Dilophosaurus</li>
+				<li>Velociraptor</li>
+				<li>Compsognathus</li>
+				<li>Gallimimus</li>
+				<li>Gigantoraptor</li>
+				<li>Iguanodon</li>
+				<li>Parasaur</li>
+				<li>Corythosaurus</li>
+				<li>Deinocheirus</li>
+				<li>Therizinosaurus</li>
+				<li>Pachycephalosaurus</li>
+				<li>Stygimoloch</li>
+				<li>Dryosaurus</li>
+				<li>Stegosaurus</li>
+				<li>Triceratops</li>
+				<li>Protoceratops</li>
+				<li>Quetzalcoatlus</li>
+				<li>Pteranodon</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biomes! Prehistoric</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/GeneticRim.ExtractableAnimalsList[defName = "GR_Dinosauria"]/extractableAnimals</xpath>
+			<value>
+				<li>BMT_Allosaurus</li>
+				<li>BMT_Baryonyx</li>
+				<li>BMT_Boomasaur</li>
+				<li>BMT_Carnotaurus</li>
+				<li>BMT_Compsognathus</li>
+				<li>BMT_Deinonychus</li>
+				<li>BMT_Dilophosaurus</li>
+				<li>BMT_Dryosaurus</li>
+				<li>BMT_Edmontosaurus</li>
+				<li>BMT_Gallimimus</li>
+				<li>BMT_Homalocephale</li>
+				<li>BMT_Hypsilophodon</li>
+				<li>BMT_Iguanodon</li>
+				<li>BMT_Leaellynasaura</li>
+				<li>BMT_Maiasaura</li>
+				<li>BMT_Nanosaurus</li>
+				<li>BMT_Olorotitan</li>
+				<li>BMT_Ouranosaurus</li>
+				<li>BMT_Oviraptor</li>
+				<li>BMT_Panphagia</li>
+				<li>BMT_Parasaur</li>
+				<li>BMT_Psittacosaurus</li>
+				<li>BMT_Struthiomimus</li>
+				<li>BMT_TRex</li>
+				<li>BMT_Therizinosaurus</li>
+				<li>BMT_Timimus</li>
+				<li>BMT_Troodon</li>
+				<li>BMT_Utahraptor</li>
+				<li>BMT_Velociraptor</li>
+				<li>BMT_Yinlong</li>
+				<li>BMT_Yutyrannus</li>
+				<li>BMT_Amargasaurus</li>
+				<li>BMT_Ankylosaurus</li>
+				<li>BMT_Apatosaurus</li>
+				<li>BMT_Borealopelta</li>
+				<li>BMT_Brachiosaurus</li>
+				<li>BMT_Camarasaurus</li>
+				<li>BMT_Centrosaurus</li>
+				<li>BMT_Chasmosaurus</li>
+				<li>BMT_Chungkingosaurus</li>
+				<li>BMT_Dimetrodon</li>
+				<li>BMT_Diplocaulus</li>
+				<li>BMT_Inostrancevia</li>
+				<li>BMT_Kaprosuchus</li>
+				<li>BMT_Kentrosaurus</li>
+				<li>BMT_Lystrosaur</li>
+				<li>BMT_Minmi</li>
+				<li>BMT_Onchiodon</li>
+				<li>BMT_Pachycephalosaurus</li>
+				<li>BMT_Pachyrhinosaurus</li>
+				<li>BMT_Polacanthus</li>
+				<li>BMT_Protoceratops</li>
+				<li>BMT_Saurumbo</li>
+				<li>BMT_Spinosaurus</li>
+				<li>BMT_Stegoceras</li>
+				<li>BMT_Stegosaurus</li>
+				<li>BMT_Stygimoloch</li>
+				<li>BMT_Styracosaurus</li>
+				<li>BMT_Triceratops</li>
+				<li>BMT_Wannanosaurus</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>
+

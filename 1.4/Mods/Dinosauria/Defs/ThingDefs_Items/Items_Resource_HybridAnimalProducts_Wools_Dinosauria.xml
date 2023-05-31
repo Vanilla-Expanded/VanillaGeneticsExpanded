@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-
 	<ThingDef ParentName="WoolBase">
 		<defName>GR_DinoFeatherWool</defName>
 		<label>dino featherwool</label>
 		<description>This seems to be an amalgamation of feathers, scales and wool, perfectly interweaved. Gives adequate defense against blunt attacks, and is quite warm.</description>
-
 		<graphicData>
 			<texPath>Things/Item/GR_DinoFeatherWool</texPath>
-			<graphicClass>Graphic_Single</graphicClass>		
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tradeability>Sellable</tradeability>
-
 		<statBases>
 			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
 			<StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
@@ -23,11 +18,27 @@
 			<color>((131,78,47)</color>
 			<commonality>0</commonality>
 		</stuffProps>
-
-
 	</ThingDef>
-
-
-
-
+	<ThingDef ParentName="LeatherBase">
+		<defName>GR_DinoLeather</defName>
+		<label>dinosaur leather</label>
+		<description>Thick leather partially covered in scales and dino-fuzz. Harvested from a dinosaur hybrid, this thick skin insulates and protects very well.</description>
+		<graphicData>
+			<color>(82,97,108)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>3.8</MarketValue>
+			<StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.22</StuffPower_Armor_Blunt>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>15</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(82,97,108)</color>
+			<commonality>0.025</commonality>
+			<statFactors>
+				<MaxHitPoints>1.5</MaxHitPoints>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
 </Defs>

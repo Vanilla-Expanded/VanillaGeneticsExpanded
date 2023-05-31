@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<BodyPartDef>
+		<defName>GR_Crest</defName>
+		<label>crest</label>
+		<hitPoints>20</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>GR_Spikes</defName>
+		<label>spikes</label>
+		<hitPoints>20</hitPoints>
+		<frostbiteVulnerability>0</frostbiteVulnerability>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+	</BodyPartDef>
+	<BodyPartDef ParentName="ClawBase">
+		<defName>GR_FootClaw</defName>
+		<label>sickle claw</label>
+		<labelShort>claw</labelShort>
+		<tags>
+			<li>MovingLimbDigit</li>
+		</tags>
+	</BodyPartDef>
+</Defs>

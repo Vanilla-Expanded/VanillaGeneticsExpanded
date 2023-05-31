@@ -37,6 +37,9 @@
 		<li IfModActive="spincrus.dinosauria">1.4/Mods/Dinosauria</li>
 		<li IfModActive="spincrus.dinosauria_copy">1.4/Mods/Dinosauria</li>
 		
+		<li IfModActive="BiomesTeam.BiomesPrehistoric">1.4/Mods/Dinosauria</li>
+		<li IfModActive="BiomesTeam.BiomesPrehistoric_copy">1.4/Mods/Dinosauria</li>
+		
 		<li IfModActive="sarg.rimbees">1.4/Mods/RimBees</li>
 		<li IfModActive="sarg.rimbees_copy">1.4/Mods/RimBees</li>
 		

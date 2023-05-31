@@ -21,7 +21,7 @@
 				</capacities>
 				<power>17</power>
 				<cooldownTime>1.6</cooldownTime>
-				<linkedBodyPartsGroup>LeftLeg</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>GR_LeftLeg</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -38,7 +38,7 @@
 				</capacities>
 				<power>17</power>
 				<cooldownTime>1.6</cooldownTime>
-				<linkedBodyPartsGroup>RightLeg</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>GR_RightLeg</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -75,7 +75,7 @@
 		<race>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
-			<body>Theropod</body>
+			<body>VGE_Theropod</body>
 			<baseHungerRate>0.55</baseHungerRate>
 			<baseBodySize>8</baseBodySize>
 			<baseHealthScale>8</baseHealthScale>
@@ -86,8 +86,8 @@
 			<trainability>Advanced</trainability>
 			<manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
-			<useLeatherFrom>Spinosaurus</useLeatherFrom>
-			<useMeatFrom>Spinosaurus</useMeatFrom>
+			<leatherDef>GR_DinoLeather</leatherDef>
+			<meatLabel>dinosaur meat</meatLabel>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -230,7 +230,7 @@
 			<executionRange>6</executionRange>
 			<herdAnimal>false</herdAnimal>
 			<predator>false</predator>
-			<body>BipedalOther</body>
+			<body>VGE_BipedalOther</body>
 			<baseHungerRate>1.8</baseHungerRate>
 			<baseBodySize>4</baseBodySize>
 			<baseHealthScale>4</baseHealthScale>
@@ -242,8 +242,8 @@
 			<roamMtbDays>2</roamMtbDays>
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.15</manhunterOnDamageChance>
-			<useLeatherFrom>Parasaur</useLeatherFrom>
-			<useMeatFrom>Parasaur</useMeatFrom>
+			<leatherDef>GR_DinoLeather</leatherDef>
+			<useMeatFrom>GR_Spinobear</useMeatFrom>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -360,7 +360,7 @@
 				</capacities>
 				<power>5</power>
 				<cooldownTime>1</cooldownTime>
-				<linkedBodyPartsGroup>FootClawAttackTool</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>GR_FootClawAttackTool</linkedBodyPartsGroup>
 			</li>
 			<li>
 				<label>right claw</label>
@@ -370,7 +370,7 @@
 				</capacities>
 				<power>5</power>
 				<cooldownTime>1</cooldownTime>
-				<linkedBodyPartsGroup>FootClawAttackTool</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>GR_FootClawAttackTool</linkedBodyPartsGroup>
 			</li>
 			<li>
 				<label>teeth</label>
@@ -394,7 +394,7 @@
 		<race>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
-			<body>TheropodWithClaws</body>
+			<body>VGE_TheropodWithClaws</body>
 			<baseHungerRate>0.15</baseHungerRate>
 			<baseBodySize>0.35</baseBodySize>
 			<baseHealthScale>0.75</baseHealthScale>
@@ -406,8 +406,8 @@
 			<roamMtbDays>7</roamMtbDays>
 			<manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
-			<useLeatherFrom>Compsognathus</useLeatherFrom>
-			<useMeatFrom>Compsognathus</useMeatFrom>
+			<leatherDef>GR_DinoLeather</leatherDef>
+			<useMeatFrom>GR_Spinobear</useMeatFrom>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -524,7 +524,7 @@
 				</capacities>
 				<power>30</power>
 				<cooldownTime>2</cooldownTime>
-				<linkedBodyPartsGroup>TailAttackTool</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>GR_TailAttackTool</linkedBodyPartsGroup>
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 			<li>
@@ -557,7 +557,7 @@
 		<race>
 			<herdAnimal>false</herdAnimal>
 			<predator>false</predator>
-			<body>Sauropod</body>
+			<body>VGE_Sauropod</body>
 			<baseHungerRate>1.1</baseHungerRate>
 			<baseBodySize>12</baseBodySize>
 			<baseHealthScale>10</baseHealthScale>
@@ -568,8 +568,8 @@
 			<trainability>Intermediate</trainability>
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
-			<useLeatherFrom>Diplodocus</useLeatherFrom>
-			<useMeatFrom>Diplodocus</useMeatFrom>
+			<leatherDef>GR_DinoLeather</leatherDef>
+			<useMeatFrom>GR_Spinobear</useMeatFrom>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -725,7 +725,7 @@
 		<race>
 			<herdAnimal>false</herdAnimal>
 			<predator>false</predator>
-			<body>Ceratopsid</body>
+			<body>VGE_Ceratopsid</body>
 			<baseHungerRate>1.5</baseHungerRate>
 			<baseBodySize>10</baseBodySize>
 			<baseHealthScale>5.5</baseHealthScale>
@@ -737,8 +737,8 @@
 			<trainability>None</trainability>
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.35</manhunterOnDamageChance>
-			<useLeatherFrom>Triceratops</useLeatherFrom>
-			<useMeatFrom>Triceratops</useMeatFrom>
+			<leatherDef>GR_DinoLeather</leatherDef>
+			<useMeatFrom>GR_Spinobear</useMeatFrom>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -828,11 +828,7 @@
 					<texPath>Things/Pawn/Animal/Dinosaur/Muffalo/GR_Dessicated_Triceraffalo</texPath>
 					<drawSize>6</drawSize>
 				</dessicatedBodyGraphicData>
-				<butcherBodyPart>
-					<bodyPartGroup>HornAttackTool</bodyPartGroup>
-					<thing>TriceratopsHorn</thing>
-					<allowFemale>true</allowFemale>
-				</butcherBodyPart>
+				
 			</li>
 		</lifeStages>
 		<modExtensions>
@@ -867,7 +863,7 @@
 				</capacities>
 				<power>14</power>
 				<cooldownTime>1.2</cooldownTime>
-				<linkedBodyPartsGroup>FootClawAttackTool</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>GR_FootClawAttackTool</linkedBodyPartsGroup>
 			</li>
 			<li>
 				<label>right claw</label>
@@ -877,7 +873,7 @@
 				</capacities>
 				<power>14</power>
 				<cooldownTime>1.2</cooldownTime>
-				<linkedBodyPartsGroup>FootClawAttackTool</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>GR_FootClawAttackTool</linkedBodyPartsGroup>
 			</li>
 			<li>
 				<label>teeth</label>
@@ -901,7 +897,7 @@
 		<race>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
-			<body>TheropodWithClaws</body>
+			<body>VGE_TheropodWithClaws</body>
 			<baseHungerRate>0.55</baseHungerRate>
 			<baseBodySize>2</baseBodySize>
 			<baseHealthScale>2.5</baseHealthScale>
@@ -912,8 +908,8 @@
 			<trainability>Advanced</trainability>
 			<manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
-			<useLeatherFrom>Utahraptor</useLeatherFrom>
-			<useMeatFrom>Utahraptor</useMeatFrom>
+			<leatherDef>GR_DinoLeather</leatherDef>
+			<useMeatFrom>GR_Spinobear</useMeatFrom>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -1033,7 +1029,7 @@
 				</capacities>
 				<power>39</power>
 				<cooldownTime>2.2</cooldownTime>
-				<linkedBodyPartsGroup>TailAttackTool</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>GR_TailAttackTool</linkedBodyPartsGroup>
 			</li>
 			<li>
 				<label>head</label>
@@ -1062,7 +1058,7 @@
 		<race>
 			<herdAnimal>false</herdAnimal>
 			<predator>false</predator>
-			<body>ThyreophoraeWithSpikes</body>
+			<body>VGE_ThyreophoraeWithSpikes</body>
 			<baseHungerRate>1.8</baseHungerRate>
 			<baseBodySize>9</baseBodySize>
 			<baseHealthScale>12</baseHealthScale>
@@ -1073,8 +1069,8 @@
 			<trainability>Intermediate</trainability>
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.25</manhunterOnDamageChance>
-			<useLeatherFrom>Stegosaurus</useLeatherFrom>
-			<useMeatFrom>Stegosaurus</useMeatFrom>
+			<leatherDef>GR_DinoLeather</leatherDef>
+			<useMeatFrom>GR_Spinobear</useMeatFrom>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -1199,7 +1195,7 @@
 				</capacities>
 				<power>8</power>
 				<cooldownTime>1.1</cooldownTime>
-				<linkedBodyPartsGroup>FootClawAttackTool</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>GR_FootClawAttackTool</linkedBodyPartsGroup>
 			</li>
 			<li>
 				<label>right claw</label>
@@ -1209,7 +1205,7 @@
 				</capacities>
 				<power>8</power>
 				<cooldownTime>1.1</cooldownTime>
-				<linkedBodyPartsGroup>FootClawAttackTool</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>GR_FootClawAttackTool</linkedBodyPartsGroup>
 			</li>
 			<li>
 				<label>teeth</label>
@@ -1236,7 +1232,7 @@
 		<race>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
-			<body>TheropodWithClaws</body>
+			<body>VGE_TheropodWithClaws</body>
 			<baseHungerRate>0.25</baseHungerRate>
 			<baseBodySize>0.75</baseBodySize>
 			<baseHealthScale>1.5</baseHealthScale>
@@ -1247,8 +1243,8 @@
 			<trainability>Advanced</trainability>
 			<manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
-			<useLeatherFrom>Velociraptor</useLeatherFrom>
-			<useMeatFrom>Velociraptor</useMeatFrom>
+			<leatherDef>GR_DinoLeather</leatherDef>
+			<useMeatFrom>GR_Spinobear</useMeatFrom>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
