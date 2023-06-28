@@ -86,6 +86,31 @@
 						</GeneticRim.ExtractableAnimalsList>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>RG_SabertoothTiger</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>RG_SabertoothTiger</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierOneAnimalsFelineReGrowthExtinct</defName>
+							<tier>1</tier>
+							<itemProduced>GR_FelineGenetic</itemProduced>
+							<extractableAnimals>
+								<li>RG_SabertoothTiger</li>
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>
