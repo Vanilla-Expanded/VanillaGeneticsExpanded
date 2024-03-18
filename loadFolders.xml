@@ -4,22 +4,16 @@
 		<li>1.3</li>
 		<li IfModActive="sarg.alphaanimals">1.3/Mods/AlphaAnimals</li>
 		<li IfModActive="sarg.alphaanimals_copy">1.3/Mods/AlphaAnimals</li>
-		
 		<li IfModActive="rimofmadness.CallofCthulhuCosmicHorrors">1.3/Mods/CosmicHorrors</li>
 		<li IfModActive="rimofmadness.CallofCthulhuCosmicHorrors_copy">1.3/Mods/CosmicHorrors</li>
-		
 		<li IfModActive="Spino.Megafauna">1.3/Mods/Megafauna</li>
 		<li IfModActive="Spino.Megafauna_copy">1.3/Mods/Megafauna</li>
-		
 		<li IfModActive="spincrus.dinosauria">1.3/Mods/Dinosauria</li>
 		<li IfModActive="spincrus.dinosauria_copy">1.3/Mods/Dinosauria</li>
-		
 		<li IfModActive="sarg.rimbees">1.3/Mods/RimBees</li>
 		<li IfModActive="sarg.rimbees_copy">1.3/Mods/RimBees</li>
-		
 		<li IfModActive="Ogliss.TheWhiteCrayon.Quarry">1.3/Mods/Quarry</li>
-		<li IfModActive="Ogliss.TheWhiteCrayon.Quarry_copy">1.3/Mods/Quarry</li>		
-		
+		<li IfModActive="Ogliss.TheWhiteCrayon.Quarry_copy">1.3/Mods/Quarry</li>
 		<li IfModActive="Ludeon.RimWorld.Ideology">1.3/Mods/Ideology</li>
 	</v1.3>
 	<v1.4>
@@ -27,25 +21,38 @@
 		<li>1.4</li>
 		<li IfModActive="sarg.alphaanimals">1.4/Mods/AlphaAnimals</li>
 		<li IfModActive="sarg.alphaanimals_copy">1.4/Mods/AlphaAnimals</li>
-		
 		<li IfModActive="rimofmadness.CallofCthulhuCosmicHorrors">1.4/Mods/CosmicHorrors</li>
 		<li IfModActive="rimofmadness.CallofCthulhuCosmicHorrors_copy">1.4/Mods/CosmicHorrors</li>
-		
 		<li IfModActive="Spino.Megafauna">1.4/Mods/Megafauna</li>
 		<li IfModActive="Spino.Megafauna_copy">1.4/Mods/Megafauna</li>
-		
 		<li IfModActive="spincrus.dinosauria">1.4/Mods/Dinosauria</li>
 		<li IfModActive="spincrus.dinosauria_copy">1.4/Mods/Dinosauria</li>
-		
 		<li IfModActive="BiomesTeam.BiomesPrehistoric">1.4/Mods/Dinosauria</li>
 		<li IfModActive="BiomesTeam.BiomesPrehistoric_copy">1.4/Mods/Dinosauria</li>
-		
 		<li IfModActive="sarg.rimbees">1.4/Mods/RimBees</li>
 		<li IfModActive="sarg.rimbees_copy">1.4/Mods/RimBees</li>
-		
 		<li IfModActive="Ogliss.TheWhiteCrayon.Quarry">1.4/Mods/Quarry</li>
-		<li IfModActive="Ogliss.TheWhiteCrayon.Quarry_copy">1.4/Mods/Quarry</li>		
-		
+		<li IfModActive="Ogliss.TheWhiteCrayon.Quarry_copy">1.4/Mods/Quarry</li>
 		<li IfModActive="Ludeon.RimWorld.Ideology">1.4/Mods/Ideology</li>
 	</v1.4>
+	
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+		<li IfModActive="sarg.alphaanimals">1.5/Mods/AlphaAnimals</li>
+		<li IfModActive="sarg.alphaanimals_copy">1.5/Mods/AlphaAnimals</li>
+		<li IfModActive="rimofmadness.CallofCthulhuCosmicHorrors">1.5/Mods/CosmicHorrors</li>
+		<li IfModActive="rimofmadness.CallofCthulhuCosmicHorrors_copy">1.5/Mods/CosmicHorrors</li>
+		<li IfModActive="Spino.Megafauna">1.5/Mods/Megafauna</li>
+		<li IfModActive="Spino.Megafauna_copy">1.5/Mods/Megafauna</li>
+		<li IfModActive="spincrus.dinosauria">1.5/Mods/Dinosauria</li>
+		<li IfModActive="spincrus.dinosauria_copy">1.5/Mods/Dinosauria</li>
+		<li IfModActive="BiomesTeam.BiomesPrehistoric">1.5/Mods/Dinosauria</li>
+		<li IfModActive="BiomesTeam.BiomesPrehistoric_copy">1.5/Mods/Dinosauria</li>
+		<li IfModActive="sarg.rimbees">1.5/Mods/RimBees</li>
+		<li IfModActive="sarg.rimbees_copy">1.5/Mods/RimBees</li>
+		<li IfModActive="Ogliss.TheWhiteCrayon.Quarry">1.5/Mods/Quarry</li>
+		<li IfModActive="Ogliss.TheWhiteCrayon.Quarry_copy">1.5/Mods/Quarry</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">1.5/Mods/Ideology</li>
+	</v1.5>
 </loadFolders>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="GR_ArchotechBuildingBase" Abstract="true" ParentName="BuildingBase">
+
+	</ThingDef>
+	<ThingDef ParentName="GR_ArchotechBuildingBase">
+		<defName>GR_DNAStorageBank</defName>
+		<label>DNA storage bank</label>
+		<description>A vital piece of archotechnology that is part of the process in creating an Archocentipede.\n\nThis machine is able to extract genetic material from live hybrids and stores it for later use, preventing deterioration. Depending on the base Genoframe, the amount of viable genetic material extracted will vary.\n\nEach storage bank can only store the genetic material from a single animal branch, such as ursine or feline. Inserting a hybrid into the database yields half as much valuable data compared to a paragon. DNA storage banks need to be in line of sight of the archocentipede former to connect to it properly.\n\nDetailed yields for paragons (half for hybrids):\n\nAwful quality: yields 1%\nPoor quality: yields 3%\nNormal quality: yields 6%\nGood quality: yields 12%\nExcellent quality: yields 25%\nMasterwork quality: yields 50%\nLegendary quality: yields 100%</description>
+		<thingClass>GeneticRim.Building_DNAStorageBank</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Endgame/ArchotechDNABank</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<uiIconScale>0.75</uiIconScale>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<drawerType>RealtimeOnly</drawerType>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>25</Plasteel>
+			<Uranium>25</Uranium>
+			<Gold>100</Gold>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<WorkToBuild>50000</WorkToBuild>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Mass>25</Mass>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(3,3)</size>
+		<comps>
+			<li Class="CompProperties_Facility">
+				
+				<maxSimultaneous>50</maxSimultaneous>
+				<maxDistance>15</maxDistance>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	</ThingDef>
+	<ThingDef ParentName="GR_ArchotechBuildingBase">
+		<defName>GR_ArchocentipedeFormer</defName>
+		<label>archocentipede former</label>
+		<thingClass>GeneticRim.Building_ArchocentipedeFormer</thingClass>
+		<description>The archotech version of the Genomorpher, this machine combines the best genetic material of all the animal branches into a single Archocentipede Growthcell. The way it functions is beyond understanding and is impossible to replicate even with the best glitterworld technology.\n\nIn order for this machine to function, it requires multiple connecting DNA Storage Banks which each have the complete genetic data from the different animal branches. Each storage bank will be completely drained in order to ensure that the resulting Growthcell is perfect in every single way.\n\nThe resulting Archocentipede Growthcell requires its own special Archowomb, as it is impossible to replicate the necessary nurturing environment.\n\nGenomes needed:</description>
+		<graphicData>
+			<texPath>Things/Building/Endgame/ArchocentipedeFormer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,4)</drawSize>
+		</graphicData>
+		<uiIconScale>0.75</uiIconScale>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<costList>
+			<Steel>100</Steel>
+			<Plasteel>50</Plasteel>
+			<Uranium>35</Uranium>
+			<Gold>100</Gold>
+		</costList>
+		<statBases>
+			<WorkToBuild>50000</WorkToBuild>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Mass>50</Mass>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(5,4)</size>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>GR_DNAStorageBank</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	</ThingDef>
+	<ThingDef ParentName="GR_ArchotechBuildingBase">
+		<defName>GR_ArchoWomb</defName>
+		<label>archowomb</label>
+		<thingClass>GeneticRim.Building_ArchoWomb</thingClass>
+		<description>A relatively massive machine designed to simulate the environment of a mother’s womb specifically for the Archocentipede. Once the Growthcell has been inserted, the embryo can start growing all the way to its adult life stage before being released.\n\nCare should be taken before beginning the process, as the resulting energy signature will force any and all hostiles to attack the colony before the monstrosity can be born. The procedure will last 15 days and once finished, the creature will be under the player’s control with peerless combat prowess.</description>
+		<graphicData>
+			<texPath>Things/Building/Endgame/Archowomb_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<uiIconScale>0.75</uiIconScale>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<costList>
+			<Steel>100</Steel>
+			<Plasteel>50</Plasteel>
+			<Uranium>35</Uranium>
+			<Gold>100</Gold>
+		</costList>
+		<statBases>
+			<WorkToBuild>50000</WorkToBuild>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Mass>50</Mass>
+		</statBases>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-3)</interactionCellOffset>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<size>(5,5)</size>
+		<comps>
+			
+			<li Class="CompProperties_Hibernatable">
+				<incidentTargetWhileStarting>Map_RaidBeacon</incidentTargetWhileStarting>
+				<sustainerActive>ShipReactor_Ambience</sustainerActive>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<placeWorkers>
+			<li>GeneticRim.PlaceWorker_MustBeRoofed</li>
+		</placeWorkers>
+	</ThingDef>
+	
+</Defs>

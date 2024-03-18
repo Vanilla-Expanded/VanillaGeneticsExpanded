@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_GrowthCell</defName>
+		<label>growth cell</label>
+		<description>A portable, human-made casing designed to hold an embryo until it is transferred to a relevant Electrowomb, similar to fertilized eggs that require incubation. The embryonic fluid is unstable due to the unnatural genetic combination, so it will need to be implanted within 7 days after its creation. This growth cell has to be kept at a temperature between 0 and 50 degrees Celsius.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/GR_Growthcell</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<Mass>10</Mass>
+			<MarketValue>45</MarketValue>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>GR_Incubators</li>
+		</thingCategories>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
+		<stackLimit>1</stackLimit>
+		<comps>
+
+			<li Class="GeneticRim.CompProperties_TempRuinableAndDestroy">
+				<minSafeTemperature>0</minSafeTemperature>
+				<maxSafeTemperature>50</maxSafeTemperature>
+				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+			</li>
+			 <li Class="CompProperties_Rottable">
+				<daysToRotStart>7</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li>
+				<compClass>GeneticRim.CompGrowthCell</compClass>
+			</li>
+		</comps>
+		<tradeTags>
+			
+			<li>NonContractable</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>GR_ArchoGrowthcell</defName>
+		<label>archotech growth cell</label>
+		<description>A portable, archotech-made casing designed to hold an embryo until it is transferred to a relevant Electrowomb, similar to fertilized eggs that require incubation. This particular one is completely stable and contains the embryo of an Archocentipede, which can only grow in an Archowomb.\n\nCare should be taken before beginning the process, as the resulting energy signature will force any and all hostiles to attack the colony before the monstrosity can be born.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/GR_ArchoGrowthcell</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<Mass>10</Mass>
+			<MarketValue>45</MarketValue>
+		</statBases>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
+		<tickerType>Normal</tickerType>
+		<tradeability>None</tradeability>
+		<thingCategories>
+			<li>GR_Incubators</li>
+		</thingCategories>
+		<stackLimit>1</stackLimit>
+		<comps>
+
+			<li>
+				<compClass>GeneticRim.CompArchotechGrowthCell</compClass>
+			</li>
+		</comps>
+		<tradeTags>
+			
+			<li>NonContractable</li>
+		</tradeTags>
+	</ThingDef>
+</Defs>
