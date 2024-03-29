@@ -15,6 +15,14 @@
 
 		<researchViewX>0</researchViewX>
 		<researchViewY>0</researchViewY>
+		<generalRules>
+  <rulesStrings>
+    <li>subject->unveiling genetic fabrics</li>
+    <li>subject_story->embarked on the journey to manipulate the very blueprint of life, crafting tools to unravel and reweave genetic threads</li>
+    <li>subject_story->created the Tissue Grinder and Genome Extractor Table, key instruments in the quest to understand and harness genetic potential</li>
+    <li>subject_gerund->laying the groundwork for a future where biology meets creativity</li>
+  </rulesStrings>
+</generalRules>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -30,6 +38,14 @@
 
 		<researchViewX>0</researchViewX>
 		<researchViewY>1</researchViewY>
+		<generalRules>
+  <rulesStrings>
+    <li>subject->the architects of life</li>
+    <li>subject_story->transcended traditional breeding, employing the Genomorpher to forge new forms of life</li>
+    <li>subject_story->ushered in the age of the Electrowomb, where gestation becomes a process guided by precision and intent</li>
+    <li>subject_gerund->sculpting the living world with visionary hands</li>
+  </rulesStrings>
+</generalRules>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
@@ -45,6 +61,14 @@
 
 		<researchViewX>0</researchViewX>
 		<researchViewY>2</researchViewY>
+		<generalRules>
+  <rulesStrings>
+    <li>subject->mirroring life</li>
+    <li>subject_story->mastered the art of genomic replication, ensuring valuable genetic traits can be preserved and replicated</li>
+    <li>subject_story->innovated with the Genome Recombinator, a breakthrough in the efficient duplication of genetic material</li>
+    <li>subject_gerund->duplicating the essence of life for prosperity and progress</li>
+  </rulesStrings>
+</generalRules>
 	</ResearchProjectDef>
 
 	
@@ -62,6 +86,14 @@
 
 		<researchViewX>2</researchViewX>
 		<researchViewY>1</researchViewY>
+		<generalRules>
+  <rulesStrings>
+    <li>subject->fusing flesh and innovation</li>
+    <li>subject_story->pioneered the growth of bio-engineered implants, merging organic life with enhancements</li>
+    <li>subject_story->explored the possibilities of augmentation, not just for survival but for the evolution of abilities</li>
+    <li>subject_gerund->cultivating the next step in organismal advancement</li>
+  </rulesStrings>
+</generalRules>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
@@ -77,6 +109,14 @@
 
 		<researchViewX>2</researchViewX>
 		<researchViewY>2</researchViewY>
+		<generalRules>
+  <rulesStrings>
+    <li>subject->bridging genomes</li>
+    <li>subject_story->extended the boundaries of bio-engineering to humans, ensuring compatibility between their biology and the myriad forms of life</li>
+    <li>subject_story->focused on the harmony of existence, where human potential can be expanded through genetic synergy</li>
+    <li>subject_gerund->harmonizing human essence with the genetic chorus of the cosmos</li>
+  </rulesStrings>
+</generalRules>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
@@ -94,6 +134,14 @@
 
 		<researchViewX>2</researchViewX>
 		<researchViewY>0</researchViewY>
+		<generalRules>
+  <rulesStrings>
+    <li>subject->the synthesis of organic and machine</li>
+    <li>subject_story->ventured into uncharted territories, blending organic life with mechanoid essence to birth new forms of existence</li>
+    <li>subject_story->established the Biomechanical Lab, a beacon for those who dare to redefine life's boundaries</li>
+    <li>subject_gerund->forging the future with strands of DNA and circuits entwined</li>
+  </rulesStrings>
+</generalRules>
 	</ResearchProjectDef>
 
 	
