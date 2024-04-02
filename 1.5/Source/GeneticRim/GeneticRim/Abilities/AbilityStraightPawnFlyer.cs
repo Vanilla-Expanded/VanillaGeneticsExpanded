@@ -14,7 +14,7 @@ namespace GeneticRim
     {
       
 
-        public override void Tick()
+       /* public override void Tick()
         {
           
             float progress = (float)this.ticksFlying / (float)this.ticksFlightTime;
@@ -27,7 +27,7 @@ namespace GeneticRim
 
             base.Tick();
         }
-
+       */
 
 
     }

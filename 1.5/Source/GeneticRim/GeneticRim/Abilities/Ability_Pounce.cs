@@ -19,7 +19,7 @@ namespace GeneticRim
 
                 AbilityPawnFlyer flyer = (AbilityPawnFlyer)PawnFlyer.MakeFlyer(InternalDefOf.GR_SlowFlyer, this.pawn, destination,null,null);
                 flyer.ability = this;
-                flyer.target = destination.ToVector3();
+                flyer.DestinationCell = destination;
                 GenSpawn.Spawn(flyer, target.Cell, map);
                 //target.Thing.TakeDamage(new DamageInfo(DamageDefOf.Blunt, this.GetPowerForPawn(), float.MaxValue, instigator: this.pawn));
 
