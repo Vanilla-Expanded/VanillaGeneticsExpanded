@@ -18,8 +18,8 @@ namespace GeneticRim
 
 
     [HarmonyPatch(typeof(Verb_CastAbility))]
-    [HarmonyPatch("DrawRadius")]
-    public static class GeneticRim_Verb_CastAbility_DrawRadius_Patch
+    [HarmonyPatch("DrawHighlight")]
+    public static class GeneticRim_Verb_CastAbility_DrawHighlight_Patch
     {
         [HarmonyPrefix]
         public static bool DisableRadius(Verb_CastAbility __instance)
