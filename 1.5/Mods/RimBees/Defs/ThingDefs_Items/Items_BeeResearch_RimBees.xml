@@ -34,7 +34,7 @@
 	<ThingDef ParentName="RB_ResearchPapersBaseGenetic">
 		<defName>RB_ResearchPapersOrgWood</defName>
 		<comps>
-			<li Class="RimBees.CompProperties_BeeResearchImages">
+			<li Class="RimBees.CompProperties_BeeResearchData">
 				<firstBee>RB_Bee_Organic_Queen</firstBee>
 				<secondBee>RB_Bee_Woodland_Queen</secondBee>
 				<resultingBees>
@@ -49,7 +49,7 @@
 	<ThingDef ParentName="RB_ResearchPapersBaseGenetic">
 		<defName>RB_ResearchPapersOrgWool</defName>
 		<comps>
-			<li Class="RimBees.CompProperties_BeeResearchImages">
+			<li Class="RimBees.CompProperties_BeeResearchData">
 				<firstBee>RB_Bee_Organic_Queen</firstBee>
 				<secondBee>RB_Bee_Wooly_Queen</secondBee>
 				<resultingBees>
@@ -64,7 +64,7 @@
 	<ThingDef ParentName="RB_ResearchPapersBaseGenetic">
 		<defName>RB_ResearchPapersOrgEgg</defName>
 		<comps>
-			<li Class="RimBees.CompProperties_BeeResearchImages">
+			<li Class="RimBees.CompProperties_BeeResearchData">
 				<firstBee>RB_Bee_Organic_Queen</firstBee>
 				<secondBee>RB_Bee_Egglaying_Queen</secondBee>
 				<resultingBees>
@@ -79,7 +79,7 @@
 	<ThingDef ParentName="RB_ResearchPapersBaseGenetic">
 		<defName>RB_ResearchPapersOrgOily</defName>
 		<comps>
-			<li Class="RimBees.CompProperties_BeeResearchImages">
+			<li Class="RimBees.CompProperties_BeeResearchData">
 				<firstBee>RB_Bee_Organic_Queen</firstBee>
 				<secondBee>RB_Bee_Oily_Queen</secondBee>
 				<resultingBees>
@@ -94,7 +94,7 @@
 	<ThingDef ParentName="RB_ResearchPapersBaseGenetic">
 		<defName>RB_ResearchPapersOrgPsy</defName>
 		<comps>
-			<li Class="RimBees.CompProperties_BeeResearchImages">
+			<li Class="RimBees.CompProperties_BeeResearchData">
 				<firstBee>RB_Bee_Organic_Queen</firstBee>
 				<secondBee>RB_Bee_Psychic_Queen</secondBee>
 				<resultingBees>
@@ -109,7 +109,7 @@
 	<ThingDef ParentName="RB_ResearchPapersBaseGenetic">
 		<defName>RB_ResearchPapersOrgPet</defName>
 		<comps>
-			<li Class="RimBees.CompProperties_BeeResearchImages">
+			<li Class="RimBees.CompProperties_BeeResearchData">
 				<firstBee>RB_Bee_Organic_Queen</firstBee>
 				<secondBee>RB_Bee_Pet_Queen</secondBee>
 				<resultingBees>
@@ -125,7 +125,7 @@
 	<ThingDef ParentName="RB_ResearchPapersBaseGenetic">
 		<defName>RB_ResearchPapersOrgInsect</defName>
 		<comps>
-			<li Class="RimBees.CompProperties_BeeResearchImages">
+			<li Class="RimBees.CompProperties_BeeResearchData">
 				<firstBee>RB_Bee_Organic_Queen</firstBee>
 				<secondBee>RB_Bee_Insectoid_Queen</secondBee>
 				<resultingBees>
@@ -140,7 +140,7 @@
 	<ThingDef ParentName="RB_ResearchPapersBaseGenetic">
 		<defName>RB_ResearchPapersOrgAgri</defName>
 		<comps>
-			<li Class="RimBees.CompProperties_BeeResearchImages">
+			<li Class="RimBees.CompProperties_BeeResearchData">
 				<firstBee>RB_Bee_Organic_Queen</firstBee>
 				<secondBee>RB_Bee_Agricultural_Queen</secondBee>
 				<resultingBees>
@@ -155,7 +155,7 @@
 	<ThingDef ParentName="RB_ResearchPapersBaseGenetic">
 		<defName>RB_ResearchPapersOrgDesert</defName>
 		<comps>
-			<li Class="RimBees.CompProperties_BeeResearchImages">
+			<li Class="RimBees.CompProperties_BeeResearchData">
 				<firstBee>RB_Bee_Organic_Queen</firstBee>
 				<secondBee>RB_Bee_Desert_Queen</secondBee>
 				<resultingBees>
