@@ -29,7 +29,7 @@ namespace GeneticRim
             WorkGiver_Scanner workGiver_Scanner = null;
 
             WorkGiver workGiver = DefDatabase<WorkGiverDef>.GetNamed("Mine", true).Worker;
-            if (workGiver.def.priorityInType != num && targetInfo.IsValid)
+            if (workGiver.def.priorityInType != num && targetInfo.IsValid || pawn.Map == null)
             {
                 // break;
             }
