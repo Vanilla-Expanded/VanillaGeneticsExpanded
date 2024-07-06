@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Vanilla Factions Expanded - Insectoids</li>
+			<li>Vanilla Factions Expanded - Insectoids 2</li>
 		</mods>
 
 		<match Class="PatchOperationSequence">
