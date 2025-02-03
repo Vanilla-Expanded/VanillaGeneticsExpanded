@@ -7,6 +7,10 @@
 		<li>1.5</li>
 	</supportedVersions>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+	<incompatibleWith>
+		<li>Teiwaz.GTGOT</li>
+		
+	</incompatibleWith>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
