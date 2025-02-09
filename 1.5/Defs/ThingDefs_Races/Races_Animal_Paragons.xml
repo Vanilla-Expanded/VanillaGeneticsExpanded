@@ -691,7 +691,7 @@
 		<statBases>
 			<MoveSpeed>5.6</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
-			<MarketValue>740</MarketValue>
+			<MarketValue>975</MarketValue>
 			<FilthRate>1</FilthRate>
 		</statBases>
 		<tools>
@@ -767,9 +767,9 @@
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
-			<baseBodySize>1</baseBodySize>
+			<baseBodySize>2.4</baseBodySize>
 			<baseHungerRate>0.15</baseHungerRate>
-			<baseHealthScale>1.3</baseHealthScale>
+			<baseHealthScale>2.4</baseHealthScale>
 			<foodType>CarnivoreAnimal</foodType>
 			<useLeatherFrom>Wolf_Timber</useLeatherFrom>
 			<useMeatFrom>Wolf_Timber</useMeatFrom>
@@ -824,7 +824,7 @@
 		<defName>GR_ParagonWolf</defName>
 		<label>canine paragon</label>
 		<race>GR_ParagonWolf</race>
-		<combatPower>95</combatPower>
+		<combatPower>212</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>1</ecoSystemWeight>
 		<lifeStages>
