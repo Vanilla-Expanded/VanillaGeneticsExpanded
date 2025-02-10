@@ -700,7 +700,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>11</power>
+				<power>19</power>
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -717,7 +717,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>11</power>
+				<power>19</power>
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -733,7 +733,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>13</power>
+				<power>21</power>
 				<cooldownTime>2.1</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -750,7 +750,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>6</power>
+				<power>7</power>
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -777,6 +777,7 @@
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
 			<wildness>0.75</wildness>
+			<nuzzleMtbHours>9</nuzzleMtbHours>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<lifeExpectancy>4</lifeExpectancy>
