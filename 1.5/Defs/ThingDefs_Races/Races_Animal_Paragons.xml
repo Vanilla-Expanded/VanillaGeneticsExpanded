@@ -691,7 +691,7 @@
 		<statBases>
 			<MoveSpeed>5.6</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
-			<MarketValue>740</MarketValue>
+			<MarketValue>975</MarketValue>
 			<FilthRate>1</FilthRate>
 		</statBases>
 		<tools>
@@ -700,7 +700,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>11</power>
+				<power>19</power>
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -717,7 +717,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>11</power>
+				<power>19</power>
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -733,7 +733,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>13</power>
+				<power>21</power>
 				<cooldownTime>2.1</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -750,7 +750,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>6</power>
+				<power>7</power>
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -767,9 +767,9 @@
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
-			<baseBodySize>1</baseBodySize>
+			<baseBodySize>2.4</baseBodySize>
 			<baseHungerRate>0.15</baseHungerRate>
-			<baseHealthScale>1.3</baseHealthScale>
+			<baseHealthScale>2.4</baseHealthScale>
 			<foodType>CarnivoreAnimal</foodType>
 			<useLeatherFrom>Wolf_Timber</useLeatherFrom>
 			<useMeatFrom>Wolf_Timber</useMeatFrom>
@@ -777,6 +777,7 @@
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
 			<wildness>0.75</wildness>
+			<nuzzleMtbHours>9</nuzzleMtbHours>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<lifeExpectancy>4</lifeExpectancy>
@@ -824,7 +825,7 @@
 		<defName>GR_ParagonWolf</defName>
 		<label>canine paragon</label>
 		<race>GR_ParagonWolf</race>
-		<combatPower>95</combatPower>
+		<combatPower>212</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>1</ecoSystemWeight>
 		<lifeStages>
