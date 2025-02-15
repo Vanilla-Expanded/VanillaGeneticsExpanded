@@ -110,6 +110,7 @@ namespace GeneticRim
 
             if (selectedGenome != null)
             {
+                sb.AppendLine();
                 sb.AppendLine("GR_SelectedGenome".Translate(selectedGenome.LabelCap));
                 sb.AppendLine("GR_DNABankProgress".Translate(this.progress.ToStringPercent()));
             }
