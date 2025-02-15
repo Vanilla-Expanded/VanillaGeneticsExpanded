@@ -274,7 +274,7 @@ namespace GeneticRim
         public override IEnumerable<Gizmo> CompGetGizmosExtra()
         {
             
-            if (Prefs.DevMode)
+            if (DebugSettings.ShowDevGizmos)
             {
                 Command_Action command_Action = new Command_Action();
                 command_Action.defaultLabel = "DEBUG: Finish womb work";

@@ -94,7 +94,7 @@ namespace GeneticRim
         public IEnumerable<Gizmo> GetGizmos()
         {
 
-            if (Prefs.DevMode)
+            if (DebugSettings.ShowDevGizmos)
             {
                 Command_Action command_Action = new Command_Action();
                 command_Action.defaultLabel = "DEBUG: Give age related diseases";

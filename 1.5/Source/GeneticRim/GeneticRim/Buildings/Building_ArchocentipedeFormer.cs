@@ -149,7 +149,7 @@ namespace GeneticRim
 
                 }
                 yield return command_Action;
-                if (Prefs.DevMode && this.growthCellProgress != -1)
+                if (DebugSettings.ShowDevGizmos && this.growthCellProgress != -1)
                 {
                     Command_Action command_Action2 = new Command_Action();
                     command_Action2.defaultLabel = "DEBUG: Finish former work";
@@ -159,7 +159,7 @@ namespace GeneticRim
                         this.growthCellProgress = 1;
 
                     };
-                    yield return command_Action;
+                    yield return command_Action2;
 
                 }
             }
