@@ -63,7 +63,7 @@ namespace GeneticRim
 
 
                     yield return GenomeListSetupUtility.SetAnimalListCommand(this, this.Map, this.selectedGenome);
-                    if (Prefs.DevMode)
+                    if (DebugSettings.ShowDevGizmos)
                     {
                         Command_Action command_Action = new Command_Action();
                         command_Action.defaultLabel = "DEBUG: Finish DNA progress";

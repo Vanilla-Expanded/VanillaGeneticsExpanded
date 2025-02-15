@@ -43,7 +43,7 @@ namespace GeneticRim
             }
 
             yield return GenomeListSetupUtility.SetParagonListCommand(this, this.Map);
-            if (Prefs.DevMode && this.progress != -1)
+            if (DebugSettings.ShowDevGizmos && this.progress != -1)
             {
                 Command_Action command_Action2 = new Command_Action();
                 command_Action2.defaultLabel = "DEBUG: Finish work";
