@@ -1,0 +1,1709 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillageneticsexpanded\\1.5\\source\\geneticrim\\geneticrim\\comps\\compelectrowomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\comps\\compelectrowomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\deathactionworkers\\deathactionworker_biggerexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\deathactionworkers\\deathactionworker_biggerexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\buildings\\building_archocentipedeformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\buildings\\building_archocentipedeformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\ai\\jobdrivers\\jobdriver_useexcavator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\ai\\jobdrivers\\jobdriver_useexcavator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\comps\\comptargeteffect_extract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\comps\\comptargeteffect_extract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\comps\\compgrowthcell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\comps\\compgrowthcell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\thinknodes\\thinknode_humanoidhybrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\thinknodes\\thinknode_humanoidhybrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\comps\\comphybrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\comps\\comphybrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\harmony\\patch_healthscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\harmony\\patch_healthscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\harmony\\patch_statvalueunfinalized.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\harmony\\patch_statvalueunfinalized.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\harmony\\patch_pawnlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\harmony\\patch_pawnlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\harmony\\patch_hungerrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\harmony\\patch_hungerrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\ai\\jobgivers\\jobgiver_mine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\ai\\jobgivers\\jobgiver_mine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\harmony\\verb_castability_drawradius.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\harmony\\verb_castability_drawradius.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\abilities\\abilitystraightpawnflyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\abilities\\abilitystraightpawnflyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\abilities\\ability_pounce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\abilities\\ability_pounce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\abilities\\ability_charge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\abilities\\ability_charge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\harmony\\resurrectionutility_tryresurrect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\harmony\\resurrectionutility_tryresurrect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\pawnrendernodes\\pawnrendernode_burrower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\pawnrendernodes\\pawnrendernode_burrower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\hediffs\\hediff_burrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\hediffs\\hediff_burrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\defofs\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\defofs\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\incidents\\incidentworker_monstrosities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\incidents\\incidentworker_monstrosities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\comps\\compdieunlessreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\comps\\compdieunlessreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\ai\\jobdrivers\\jobdriver_animalhuntjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\ai\\jobdrivers\\jobdriver_animalhuntjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\ai\\jobgivers\\jobgiver_tryrecruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\ai\\jobgivers\\jobgiver_tryrecruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\ai\\jobgivers\\jobgiver_execute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\ai\\jobgivers\\jobgiver_execute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\ai\\jobdrivers\\jobdriver_recruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\ai\\jobdrivers\\jobdriver_recruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\game, world and map components\\worldcomponent_roamingmonstrosities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\game, world and map components\\worldcomponent_roamingmonstrosities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\endgame\\archotechcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\endgame\\archotechcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\comps\\comprandomhybridspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\comps\\comprandomhybridspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\comps\\compfleshgrowth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\comps\\compfleshgrowth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\buildings\\building_mechahybridizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\buildings\\building_mechahybridizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\windows and dialogs\\window_designategrowthcell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\windows and dialogs\\window_designategrowthcell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\hediff comps\\hediffcomp_rotwhendead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\hediff comps\\hediffcomp_rotwhendead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\hediff comps\\hediffcomp_rabidslash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\hediff comps\\hediffcomp_rabidslash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\hediff comps\\hediffcomp_exploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\hediff comps\\hediffcomp_exploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\hediff comps\\hediffcomp_bloodfrenzy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\hediff comps\\hediffcomp_bloodfrenzy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\dev mode\\spawnpawnwithquality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\dev mode\\spawnpawnwithquality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\dev mode\\superitemspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\dev mode\\superitemspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\dev mode\\spawnhybridraid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\dev mode\\spawnhybridraid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\dev mode\\generatemechlabquest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\dev mode\\generatemechlabquest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\dev mode\\generateabandonedlabquest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\dev mode\\generateabandonedlabquest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\dev mode\\fixedcolonyanimalsdebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\dev mode\\fixedcolonyanimalsdebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\deathactionworkers\\deathactionworker_toxicexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\deathactionworkers\\deathactionworker_toxicexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\deathactionworkers\\deathactionworker_stunningexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\deathactionworkers\\deathactionworker_stunningexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\deathactionworkers\\deathactionworker_smallhairballexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\deathactionworkers\\deathactionworker_smallhairballexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\deathactionworkers\\deathactionworker_smallbomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\deathactionworkers\\deathactionworker_smallbomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\deathactionworkers\\deathactionworker_smallacidexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\deathactionworkers\\deathactionworker_smallacidexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\deathactionworkers\\deathactionworker_psionicexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\deathactionworkers\\deathactionworker_psionicexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\deathactionworkers\\deathactionworker_hairballexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\deathactionworkers\\deathactionworker_hairballexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\deathactionworkers\\deathactionworker_gargantuanexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\deathactionworkers\\deathactionworker_gargantuanexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\deathactionworkers\\deathactionworker_frostexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\deathactionworkers\\deathactionworker_frostexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\deathactionworkers\\deathactionworker_empexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\deathactionworkers\\deathactionworker_empexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\deathactionworkers\\deathactionworker_eggxplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\deathactionworkers\\deathactionworker_eggxplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\deathactionworkers\\deathactionworker_beeexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\deathactionworkers\\deathactionworker_beeexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\deathactionworkers\\deathactionworker_acidexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\deathactionworkers\\deathactionworker_acidexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\buildings\\building_dnastoragebank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\buildings\\building_dnastoragebank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\buildings\\building_biomechanicallabbeacon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\buildings\\building_biomechanicallabbeacon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\buildings\\building_archowomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\buildings\\building_archowomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\harmony\\foragedfoodperdaycalculator_getforagedfoodcountperinterval_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\harmony\\foragedfoodperdaycalculator_getforagedfoodcountperinterval_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\harmony\\executionutility_executionint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\harmony\\executionutility_executionint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\harmony\\comphatcher_hatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\harmony\\comphatcher_hatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\harmony\\caravan_nightresting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\harmony\\caravan_nightresting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\harmony\\building_trap_checkspring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\harmony\\building_trap_checkspring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\buildings\\building_mechafuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\buildings\\building_mechafuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\defs\\endgamegenomesdefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\defs\\endgamegenomesdefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\graphicscache\\graphicscache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\graphicscache\\graphicscache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\comps\\compproperties\\compproperties_electrowomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\comps\\compproperties\\compproperties_electrowomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\buildings\\building_mechahybridantenna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\buildings\\building_mechahybridantenna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\ai\\jobdrivers\\jobdriver_plantcut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\ai\\jobdrivers\\jobdriver_plantcut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\thinknodes\\thinknode_manscarab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\thinknodes\\thinknode_manscarab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\thinknodes\\thinknode_manwolf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\thinknodes\\thinknode_manwolf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\thinknodes\\thinknode_moleman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\thinknodes\\thinknode_moleman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\thinknodes\\thinknode_muffaloman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\thinknodes\\thinknode_muffaloman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\thinknodes\\thinknode_thrumboman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\thinknodes\\thinknode_thrumboman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\thinknodes\\thinknode_turkeyman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\thinknodes\\thinknode_turkeyman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\game, world and map components\\worldcomponent_failureschecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\game, world and map components\\worldcomponent_failureschecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\comps\\comphumanoidhybrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\comps\\comphumanoidhybrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\game, world and map components\\gamecomponent_hyperlinkinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\game, world and map components\\gamecomponent_hyperlinkinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\game, world and map components\\gamecomponent_manffaloexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\game, world and map components\\gamecomponent_manffaloexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\game, world and map components\\worldcomponent_labquests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\game, world and map components\\worldcomponent_labquests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\game, world and map components\\archotechextractableanimals_mapcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\game, world and map components\\archotechextractableanimals_mapcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\ai\\jobgivers\\jobgiver_clean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\ai\\jobgivers\\jobgiver_clean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\staticcollections\\staticcollectionsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\staticcollections\\staticcollectionsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\comps\\compgenomorpher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\comps\\compgenomorpher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\abilities\\compdetonate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\abilities\\compdetonate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\abilities\\compdeathray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\abilities\\compdeathray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\abilities\\properties\\compproperties_deathray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\abilities\\properties\\compproperties_deathray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\gas and liquid\\persistant_fuel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\gas and liquid\\persistant_fuel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\commands\\genomelistsetuputility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\commands\\genomelistsetuputility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\ai\\jobgivers\\jobgiver_feedpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\ai\\jobgivers\\jobgiver_feedpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\ai\\jobgivers\\jobgiver_flick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\ai\\jobgivers\\jobgiver_flick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\ai\\jobgivers\\jobgiver_harvest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\ai\\jobgivers\\jobgiver_harvest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\comps\\compexploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\comps\\compexploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\gas and liquid\\gas_poisoncloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\gas and liquid\\gas_poisoncloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sarg\\AppData\\Local\\Temp\\MetadataAsSource\\71cddbfd983245acb22ac77aafcec2a0\\DecompilationMetadataAsSourceFileProvider\\02eb4742a21048e0b3cdcc09b0355679\\PawnGenerationRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\defextensions\\defextension_quality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\defextensions\\defextension_quality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\defextensions\\defextension_hybrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\defextensions\\defextension_hybrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\defextensions\\defextension_hybridchancealterer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\defextensions\\defextension_hybridchancealterer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\geneticrim\\comps\\compproperties\\compproperties_genomorpher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8281E4EE-FE39-4FAD-BA55-326503AE9284}|GeneticRim\\GeneticRim.csproj|solutionrelative:geneticrim\\comps\\compproperties\\compproperties_genomorpher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\Window_DesignateGrowthCell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\CompProperties\\CompProperties_HybridGenesUseEffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Gas\\Gas_InsectClouds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Gas\\Gas_InsanityCloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\CompAnimalControlHub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "JobGiver_Execute.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobGivers\\JobGiver_Execute.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\AI\\JobGivers\\JobGiver_Execute.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobGivers\\JobGiver_Execute.cs",
+              "RelativeToolTip": "GeneticRim\\AI\\JobGivers\\JobGiver_Execute.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAABBwDMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:16.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompElectroWomb.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompElectroWomb.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Comps\\CompElectroWomb.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompElectroWomb.cs",
+              "RelativeToolTip": "GeneticRim\\Comps\\CompElectroWomb.cs",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAAAPQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompGrowthCell.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompGrowthCell.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Comps\\CompGrowthCell.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompGrowthCell.cs",
+              "RelativeToolTip": "GeneticRim\\Comps\\CompGrowthCell.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompTargetEffect_Extract.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompTargetEffect_Extract.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Comps\\CompTargetEffect_Extract.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompTargetEffect_Extract.cs",
+              "RelativeToolTip": "GeneticRim\\Comps\\CompTargetEffect_Extract.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAMAAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JobDriver_UseExcavator.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobDrivers\\JobDriver_UseExcavator.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\AI\\JobDrivers\\JobDriver_UseExcavator.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobDrivers\\JobDriver_UseExcavator.cs",
+              "RelativeToolTip": "GeneticRim\\AI\\JobDrivers\\JobDriver_UseExcavator.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Building_ArchocentipedeFormer.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Buildings\\Building_ArchocentipedeFormer.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Buildings\\Building_ArchocentipedeFormer.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Buildings\\Building_ArchocentipedeFormer.cs",
+              "RelativeToolTip": "GeneticRim\\Buildings\\Building_ArchocentipedeFormer.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAJAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeathActionWorker_BiggerExplosion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_BiggerExplosion.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_BiggerExplosion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_BiggerExplosion.cs",
+              "RelativeToolTip": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_BiggerExplosion.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ResurrectionUtility_TryResurrect.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\ResurrectionUtility_TryResurrect.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Harmony\\ResurrectionUtility_TryResurrect.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\ResurrectionUtility_TryResurrect.cs",
+              "RelativeToolTip": "GeneticRim\\Harmony\\ResurrectionUtility_TryResurrect.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAABBwCkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JobGiver_Mine.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobGivers\\JobGiver_Mine.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\AI\\JobGivers\\JobGiver_Mine.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobGivers\\JobGiver_Mine.cs",
+              "RelativeToolTip": "GeneticRim\\AI\\JobGivers\\JobGiver_Mine.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAABBwB8AAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Patch_HealthScale.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\Patch_HealthScale.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Harmony\\Patch_HealthScale.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\Patch_HealthScale.cs",
+              "RelativeToolTip": "GeneticRim\\Harmony\\Patch_HealthScale.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Patch_HungerRate.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\Patch_HungerRate.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Harmony\\Patch_HungerRate.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\Patch_HungerRate.cs",
+              "RelativeToolTip": "GeneticRim\\Harmony\\Patch_HungerRate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThinkNode_HumanoidHybrid.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\ThinkNodes\\ThinkNode_HumanoidHybrid.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\ThinkNodes\\ThinkNode_HumanoidHybrid.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\ThinkNodes\\ThinkNode_HumanoidHybrid.cs",
+              "RelativeToolTip": "GeneticRim\\ThinkNodes\\ThinkNode_HumanoidHybrid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Patch_PawnLabel.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\Patch_PawnLabel.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Harmony\\Patch_PawnLabel.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\Patch_PawnLabel.cs",
+              "RelativeToolTip": "GeneticRim\\Harmony\\Patch_PawnLabel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Patch_StatValueUnfinalized.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\Patch_StatValueUnfinalized.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Harmony\\Patch_StatValueUnfinalized.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\Patch_StatValueUnfinalized.cs",
+              "RelativeToolTip": "GeneticRim\\Harmony\\Patch_StatValueUnfinalized.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CompHybrid.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompHybrid.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Comps\\CompHybrid.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompHybrid.cs",
+              "RelativeToolTip": "GeneticRim\\Comps\\CompHybrid.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAgwHkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Verb_CastAbility_DrawRadius.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\Verb_CastAbility_DrawRadius.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Harmony\\Verb_CastAbility_DrawRadius.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\Verb_CastAbility_DrawRadius.cs",
+              "RelativeToolTip": "GeneticRim\\Harmony\\Verb_CastAbility_DrawRadius.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAABBwBUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CompDieUnlessReset.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompDieUnlessReset.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Comps\\CompDieUnlessReset.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompDieUnlessReset.cs",
+              "RelativeToolTip": "GeneticRim\\Comps\\CompDieUnlessReset.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAABBwC8AAACUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "JobDriver_AnimalHuntJob.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobDrivers\\JobDriver_AnimalHuntJob.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\AI\\JobDrivers\\JobDriver_AnimalHuntJob.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobDrivers\\JobDriver_AnimalHuntJob.cs",
+              "RelativeToolTip": "GeneticRim\\AI\\JobDrivers\\JobDriver_AnimalHuntJob.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAABBwGsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "JobDriver_Recruit.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobDrivers\\JobDriver_Recruit.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\AI\\JobDrivers\\JobDriver_Recruit.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobDrivers\\JobDriver_Recruit.cs",
+              "RelativeToolTip": "GeneticRim\\AI\\JobDrivers\\JobDriver_Recruit.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAABBwDgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AbilityStraightPawnFlyer.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Abilities\\AbilityStraightPawnFlyer.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Abilities\\AbilityStraightPawnFlyer.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Abilities\\AbilityStraightPawnFlyer.cs",
+              "RelativeToolTip": "GeneticRim\\Abilities\\AbilityStraightPawnFlyer.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Ability_Charge.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Abilities\\Ability_Charge.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Abilities\\Ability_Charge.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Abilities\\Ability_Charge.cs",
+              "RelativeToolTip": "GeneticRim\\Abilities\\Ability_Charge.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAABBwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Ability_Pounce.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Abilities\\Ability_Pounce.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Abilities\\Ability_Pounce.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Abilities\\Ability_Pounce.cs",
+              "RelativeToolTip": "GeneticRim\\Abilities\\Ability_Pounce.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Hediff_Burrowing.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Hediffs\\Hediff_Burrowing.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Hediffs\\Hediff_Burrowing.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Hediffs\\Hediff_Burrowing.cs",
+              "RelativeToolTip": "GeneticRim\\Hediffs\\Hediff_Burrowing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IncidentWorker_Monstrosities.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Incidents\\IncidentWorker_Monstrosities.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Incidents\\IncidentWorker_Monstrosities.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Incidents\\IncidentWorker_Monstrosities.cs",
+              "RelativeToolTip": "GeneticRim\\Incidents\\IncidentWorker_Monstrosities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PawnRenderNode_Burrower.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\PawnRenderNodes\\PawnRenderNode_Burrower.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\PawnRenderNodes\\PawnRenderNode_Burrower.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\PawnRenderNodes\\PawnRenderNode_Burrower.cs",
+              "RelativeToolTip": "GeneticRim\\PawnRenderNodes\\PawnRenderNode_Burrower.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InternalDefOf.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DefOfs\\InternalDefOf.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DefOfs\\InternalDefOf.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DefOfs\\InternalDefOf.cs",
+              "RelativeToolTip": "GeneticRim\\DefOfs\\InternalDefOf.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAABBwFIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "JobGiver_TryRecruit.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobGivers\\JobGiver_TryRecruit.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\AI\\JobGivers\\JobGiver_TryRecruit.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobGivers\\JobGiver_TryRecruit.cs",
+              "RelativeToolTip": "GeneticRim\\AI\\JobGivers\\JobGiver_TryRecruit.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAABBwDwAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CompFleshGrowth.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompFleshGrowth.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Comps\\CompFleshGrowth.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompFleshGrowth.cs",
+              "RelativeToolTip": "GeneticRim\\Comps\\CompFleshGrowth.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAAHMAAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CompRandomHybridSpawner.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompRandomHybridSpawner.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Comps\\CompRandomHybridSpawner.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompRandomHybridSpawner.cs",
+              "RelativeToolTip": "GeneticRim\\Comps\\CompRandomHybridSpawner.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAABBwEwAAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ArchotechCountdown.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Endgame\\ArchotechCountdown.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Endgame\\ArchotechCountdown.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Endgame\\ArchotechCountdown.cs",
+              "RelativeToolTip": "GeneticRim\\Endgame\\ArchotechCountdown.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAABBwEwAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WorldComponent_RoamingMonstrosities.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Game, World and Map Components\\WorldComponent_RoamingMonstrosities.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Game, World and Map Components\\WorldComponent_RoamingMonstrosities.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Game, World and Map Components\\WorldComponent_RoamingMonstrosities.cs",
+              "RelativeToolTip": "GeneticRim\\Game, World and Map Components\\WorldComponent_RoamingMonstrosities.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAABBwCIAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Building_Mechahybridizer.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Buildings\\Building_Mechahybridizer.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Buildings\\Building_Mechahybridizer.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Buildings\\Building_Mechahybridizer.cs",
+              "RelativeToolTip": "GeneticRim\\Buildings\\Building_Mechahybridizer.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAAALQAAACGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Window_DesignateGrowthCell.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Windows and Dialogs\\Window_DesignateGrowthCell.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Windows and Dialogs\\Window_DesignateGrowthCell.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Windows and Dialogs\\Window_DesignateGrowthCell.cs",
+              "RelativeToolTip": "GeneticRim\\Windows and Dialogs\\Window_DesignateGrowthCell.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HediffComp_RotWhenDead.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Hediff Comps\\HediffComp_RotWhenDead.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Hediff Comps\\HediffComp_RotWhenDead.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Hediff Comps\\HediffComp_RotWhenDead.cs",
+              "RelativeToolTip": "GeneticRim\\Hediff Comps\\HediffComp_RotWhenDead.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABMAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "HediffComp_RabidSlash.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Hediff Comps\\HediffComp_RabidSlash.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Hediff Comps\\HediffComp_RabidSlash.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Hediff Comps\\HediffComp_RabidSlash.cs",
+              "RelativeToolTip": "GeneticRim\\Hediff Comps\\HediffComp_RabidSlash.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABMAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "HediffComp_BloodFrenzy.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Hediff Comps\\HediffComp_BloodFrenzy.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Hediff Comps\\HediffComp_BloodFrenzy.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Hediff Comps\\HediffComp_BloodFrenzy.cs",
+              "RelativeToolTip": "GeneticRim\\Hediff Comps\\HediffComp_BloodFrenzy.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABMAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SpawnHybridRaid.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Dev Mode\\SpawnHybridRaid.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Dev Mode\\SpawnHybridRaid.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Dev Mode\\SpawnHybridRaid.cs",
+              "RelativeToolTip": "GeneticRim\\Dev Mode\\SpawnHybridRaid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GenerateMechLabQuest.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Dev Mode\\GenerateMechLabQuest.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Dev Mode\\GenerateMechLabQuest.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Dev Mode\\GenerateMechLabQuest.cs",
+              "RelativeToolTip": "GeneticRim\\Dev Mode\\GenerateMechLabQuest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GenerateAbandonedLabQuest.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Dev Mode\\GenerateAbandonedLabQuest.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Dev Mode\\GenerateAbandonedLabQuest.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Dev Mode\\GenerateAbandonedLabQuest.cs",
+              "RelativeToolTip": "GeneticRim\\Dev Mode\\GenerateAbandonedLabQuest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "SuperItemSpawner.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Dev Mode\\SuperItemSpawner.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Dev Mode\\SuperItemSpawner.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Dev Mode\\SuperItemSpawner.cs",
+              "RelativeToolTip": "GeneticRim\\Dev Mode\\SuperItemSpawner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HediffComp_Exploder.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Hediff Comps\\HediffComp_Exploder.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Hediff Comps\\HediffComp_Exploder.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Hediff Comps\\HediffComp_Exploder.cs",
+              "RelativeToolTip": "GeneticRim\\Hediff Comps\\HediffComp_Exploder.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACIAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DeathActionWorker_StunningExplosion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_StunningExplosion.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_StunningExplosion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_StunningExplosion.cs",
+              "RelativeToolTip": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_StunningExplosion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SpawnPawnWithQuality.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Dev Mode\\SpawnPawnWithQuality.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Dev Mode\\SpawnPawnWithQuality.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Dev Mode\\SpawnPawnWithQuality.cs",
+              "RelativeToolTip": "GeneticRim\\Dev Mode\\SpawnPawnWithQuality.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DeathActionWorker_SmallHairballExplosion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_SmallHairballExplosion.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_SmallHairballExplosion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_SmallHairballExplosion.cs",
+              "RelativeToolTip": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_SmallHairballExplosion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DeathActionWorker_SmallBomb.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_SmallBomb.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_SmallBomb.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_SmallBomb.cs",
+              "RelativeToolTip": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_SmallBomb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DeathActionWorker_ToxicExplosion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_ToxicExplosion.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_ToxicExplosion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_ToxicExplosion.cs",
+              "RelativeToolTip": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_ToxicExplosion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FixedColonyAnimalsDebug.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Dev Mode\\FixedColonyAnimalsDebug.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Dev Mode\\FixedColonyAnimalsDebug.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Dev Mode\\FixedColonyAnimalsDebug.cs",
+              "RelativeToolTip": "GeneticRim\\Dev Mode\\FixedColonyAnimalsDebug.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DeathActionWorker_SmallAcidExplosion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_SmallAcidExplosion.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_SmallAcidExplosion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_SmallAcidExplosion.cs",
+              "RelativeToolTip": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_SmallAcidExplosion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DeathActionWorker_PsionicExplosion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_PsionicExplosion.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_PsionicExplosion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_PsionicExplosion.cs",
+              "RelativeToolTip": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_PsionicExplosion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DeathActionWorker_HairballExplosion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_HairballExplosion.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_HairballExplosion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_HairballExplosion.cs",
+              "RelativeToolTip": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_HairballExplosion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DeathActionWorker_GargantuanExplosion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_GargantuanExplosion.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_GargantuanExplosion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_GargantuanExplosion.cs",
+              "RelativeToolTip": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_GargantuanExplosion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DeathActionWorker_FrostExplosion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_FrostExplosion.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_FrostExplosion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_FrostExplosion.cs",
+              "RelativeToolTip": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_FrostExplosion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DeathActionWorker_EMPExplosion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_EMPExplosion.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_EMPExplosion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_EMPExplosion.cs",
+              "RelativeToolTip": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_EMPExplosion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "DeathActionWorker_Eggxplosion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_Eggxplosion.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_Eggxplosion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_Eggxplosion.cs",
+              "RelativeToolTip": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_Eggxplosion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DeathActionWorker_BeeExplosion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_BeeExplosion.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_BeeExplosion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_BeeExplosion.cs",
+              "RelativeToolTip": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_BeeExplosion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DeathActionWorker_AcidExplosion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_AcidExplosion.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_AcidExplosion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DeathActionWorkers\\DeathActionWorker_AcidExplosion.cs",
+              "RelativeToolTip": "GeneticRim\\DeathActionWorkers\\DeathActionWorker_AcidExplosion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Building_DNAStorageBank.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Buildings\\Building_DNAStorageBank.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Buildings\\Building_DNAStorageBank.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Buildings\\Building_DNAStorageBank.cs",
+              "RelativeToolTip": "GeneticRim\\Buildings\\Building_DNAStorageBank.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Building_BiomechanicalLabBeacon.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Buildings\\Building_BiomechanicalLabBeacon.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Buildings\\Building_BiomechanicalLabBeacon.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Buildings\\Building_BiomechanicalLabBeacon.cs",
+              "RelativeToolTip": "GeneticRim\\Buildings\\Building_BiomechanicalLabBeacon.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAAFQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Building_ArchoWomb.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Buildings\\Building_ArchoWomb.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Buildings\\Building_ArchoWomb.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Buildings\\Building_ArchoWomb.cs",
+              "RelativeToolTip": "GeneticRim\\Buildings\\Building_ArchoWomb.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAC0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ForagedFoodPerDayCalculator_GetForagedFoodCountPerInterval_Patch.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\ForagedFoodPerDayCalculator_GetForagedFoodCountPerInterval_Patch.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Harmony\\ForagedFoodPerDayCalculator_GetForagedFoodCountPerInterval_Patch.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\ForagedFoodPerDayCalculator_GetForagedFoodCountPerInterval_Patch.cs",
+              "RelativeToolTip": "GeneticRim\\Harmony\\ForagedFoodPerDayCalculator_GetForagedFoodCountPerInterval_Patch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ExecutionUtility_ExecutionInt.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\ExecutionUtility_ExecutionInt.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Harmony\\ExecutionUtility_ExecutionInt.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\ExecutionUtility_ExecutionInt.cs",
+              "RelativeToolTip": "GeneticRim\\Harmony\\ExecutionUtility_ExecutionInt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "CompHatcher_Hatch.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\CompHatcher_Hatch.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Harmony\\CompHatcher_Hatch.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\CompHatcher_Hatch.cs",
+              "RelativeToolTip": "GeneticRim\\Harmony\\CompHatcher_Hatch.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Caravan_NightResting.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\Caravan_NightResting.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Harmony\\Caravan_NightResting.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\Caravan_NightResting.cs",
+              "RelativeToolTip": "GeneticRim\\Harmony\\Caravan_NightResting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Building_Trap_CheckSpring.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\Building_Trap_CheckSpring.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Harmony\\Building_Trap_CheckSpring.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Harmony\\Building_Trap_CheckSpring.cs",
+              "RelativeToolTip": "GeneticRim\\Harmony\\Building_Trap_CheckSpring.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Building_Mechafuse.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Buildings\\Building_Mechafuse.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Buildings\\Building_Mechafuse.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Buildings\\Building_Mechafuse.cs",
+              "RelativeToolTip": "GeneticRim\\Buildings\\Building_Mechafuse.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "EndgameGenomesDefs.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Defs\\EndgameGenomesDefs.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Defs\\EndgameGenomesDefs.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Defs\\EndgameGenomesDefs.cs",
+              "RelativeToolTip": "GeneticRim\\Defs\\EndgameGenomesDefs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ThinkNode_Manwolf.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\ThinkNodes\\ThinkNode_Manwolf.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\ThinkNodes\\ThinkNode_Manwolf.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\ThinkNodes\\ThinkNode_Manwolf.cs",
+              "RelativeToolTip": "GeneticRim\\ThinkNodes\\ThinkNode_Manwolf.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CompProperties_ElectroWomb.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompProperties\\CompProperties_ElectroWomb.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Comps\\CompProperties\\CompProperties_ElectroWomb.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompProperties\\CompProperties_ElectroWomb.cs",
+              "RelativeToolTip": "GeneticRim\\Comps\\CompProperties\\CompProperties_ElectroWomb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "GraphicsCache.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\GraphicsCache\\GraphicsCache.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\GraphicsCache\\GraphicsCache.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\GraphicsCache\\GraphicsCache.cs",
+              "RelativeToolTip": "GeneticRim\\GraphicsCache\\GraphicsCache.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ThinkNode_Manscarab.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\ThinkNodes\\ThinkNode_Manscarab.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\ThinkNodes\\ThinkNode_Manscarab.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\ThinkNodes\\ThinkNode_Manscarab.cs",
+              "RelativeToolTip": "GeneticRim\\ThinkNodes\\ThinkNode_Manscarab.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Building_MechahybridAntenna.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Buildings\\Building_MechahybridAntenna.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Buildings\\Building_MechahybridAntenna.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Buildings\\Building_MechahybridAntenna.cs",
+              "RelativeToolTip": "GeneticRim\\Buildings\\Building_MechahybridAntenna.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAABBwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ThinkNode_Moleman.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\ThinkNodes\\ThinkNode_Moleman.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\ThinkNodes\\ThinkNode_Moleman.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\ThinkNodes\\ThinkNode_Moleman.cs",
+              "RelativeToolTip": "GeneticRim\\ThinkNodes\\ThinkNode_Moleman.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ThinkNode_Muffaloman.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\ThinkNodes\\ThinkNode_Muffaloman.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\ThinkNodes\\ThinkNode_Muffaloman.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\ThinkNodes\\ThinkNode_Muffaloman.cs",
+              "RelativeToolTip": "GeneticRim\\ThinkNodes\\ThinkNode_Muffaloman.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "JobDriver_PlantCut.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobDrivers\\JobDriver_PlantCut.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\AI\\JobDrivers\\JobDriver_PlantCut.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobDrivers\\JobDriver_PlantCut.cs",
+              "RelativeToolTip": "GeneticRim\\AI\\JobDrivers\\JobDriver_PlantCut.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAUwC8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ThinkNode_Thrumboman.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\ThinkNodes\\ThinkNode_Thrumboman.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\ThinkNodes\\ThinkNode_Thrumboman.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\ThinkNodes\\ThinkNode_Thrumboman.cs",
+              "RelativeToolTip": "GeneticRim\\ThinkNodes\\ThinkNode_Thrumboman.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ThinkNode_Turkeyman.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\ThinkNodes\\ThinkNode_Turkeyman.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\ThinkNodes\\ThinkNode_Turkeyman.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\ThinkNodes\\ThinkNode_Turkeyman.cs",
+              "RelativeToolTip": "GeneticRim\\ThinkNodes\\ThinkNode_Turkeyman.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "CompHumanoidHybrid.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompHumanoidHybrid.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Comps\\CompHumanoidHybrid.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompHumanoidHybrid.cs",
+              "RelativeToolTip": "GeneticRim\\Comps\\CompHumanoidHybrid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "GameComponent_ManffaloExperience.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Game, World and Map Components\\GameComponent_ManffaloExperience.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Game, World and Map Components\\GameComponent_ManffaloExperience.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Game, World and Map Components\\GameComponent_ManffaloExperience.cs",
+              "RelativeToolTip": "GeneticRim\\Game, World and Map Components\\GameComponent_ManffaloExperience.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAABBwBUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "GameComponent_HyperlinkInitializer.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Game, World and Map Components\\GameComponent_HyperlinkInitializer.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Game, World and Map Components\\GameComponent_HyperlinkInitializer.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Game, World and Map Components\\GameComponent_HyperlinkInitializer.cs",
+              "RelativeToolTip": "GeneticRim\\Game, World and Map Components\\GameComponent_HyperlinkInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "WorldComponent_LabQuests.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Game, World and Map Components\\WorldComponent_LabQuests.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Game, World and Map Components\\WorldComponent_LabQuests.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Game, World and Map Components\\WorldComponent_LabQuests.cs",
+              "RelativeToolTip": "GeneticRim\\Game, World and Map Components\\WorldComponent_LabQuests.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAABBwBAAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "WorldComponent_FailuresChecker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Game, World and Map Components\\WorldComponent_FailuresChecker.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Game, World and Map Components\\WorldComponent_FailuresChecker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Game, World and Map Components\\WorldComponent_FailuresChecker.cs",
+              "RelativeToolTip": "GeneticRim\\Game, World and Map Components\\WorldComponent_FailuresChecker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ArchotechExtractableAnimals_MapComponent.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Game, World and Map Components\\ArchotechExtractableAnimals_MapComponent.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Game, World and Map Components\\ArchotechExtractableAnimals_MapComponent.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Game, World and Map Components\\ArchotechExtractableAnimals_MapComponent.cs",
+              "RelativeToolTip": "GeneticRim\\Game, World and Map Components\\ArchotechExtractableAnimals_MapComponent.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAABBwBwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "JobGiver_Clean.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobGivers\\JobGiver_Clean.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\AI\\JobGivers\\JobGiver_Clean.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobGivers\\JobGiver_Clean.cs",
+              "RelativeToolTip": "GeneticRim\\AI\\JobGivers\\JobGiver_Clean.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "StaticCollectionsClass.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\StaticCollections\\StaticCollectionsClass.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\StaticCollections\\StaticCollectionsClass.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\StaticCollections\\StaticCollectionsClass.cs",
+              "RelativeToolTip": "GeneticRim\\StaticCollections\\StaticCollectionsClass.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAABBwJwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "CompDeathRay.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Abilities\\CompDeathRay.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Abilities\\CompDeathRay.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Abilities\\CompDeathRay.cs",
+              "RelativeToolTip": "GeneticRim\\Abilities\\CompDeathRay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "CompProperties_DeathRay.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Abilities\\Properties\\CompProperties_DeathRay.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Abilities\\Properties\\CompProperties_DeathRay.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Abilities\\Properties\\CompProperties_DeathRay.cs",
+              "RelativeToolTip": "GeneticRim\\Abilities\\Properties\\CompProperties_DeathRay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "CompDetonate.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Abilities\\CompDetonate.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Abilities\\CompDetonate.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Abilities\\CompDetonate.cs",
+              "RelativeToolTip": "GeneticRim\\Abilities\\CompDetonate.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAABBwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "CompGenomorpher.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompGenomorpher.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Comps\\CompGenomorpher.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompGenomorpher.cs",
+              "RelativeToolTip": "GeneticRim\\Comps\\CompGenomorpher.cs",
+              "ViewState": "AQIAAMIAAAAAAAAAAABBwNQAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "JobGiver_Flick.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobGivers\\JobGiver_Flick.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\AI\\JobGivers\\JobGiver_Flick.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobGivers\\JobGiver_Flick.cs",
+              "RelativeToolTip": "GeneticRim\\AI\\JobGivers\\JobGiver_Flick.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "JobGiver_FeedPatient.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobGivers\\JobGiver_FeedPatient.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\AI\\JobGivers\\JobGiver_FeedPatient.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobGivers\\JobGiver_FeedPatient.cs",
+              "RelativeToolTip": "GeneticRim\\AI\\JobGivers\\JobGiver_FeedPatient.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAUwD0AAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "GenomeListSetupUtility.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Commands\\GenomeListSetupUtility.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Commands\\GenomeListSetupUtility.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Commands\\GenomeListSetupUtility.cs",
+              "RelativeToolTip": "GeneticRim\\Commands\\GenomeListSetupUtility.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAArwB4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Persistant_Fuel.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Gas and Liquid\\Persistant_Fuel.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Gas and Liquid\\Persistant_Fuel.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Gas and Liquid\\Persistant_Fuel.cs",
+              "RelativeToolTip": "GeneticRim\\Gas and Liquid\\Persistant_Fuel.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAkwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "JobGiver_Harvest.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobGivers\\JobGiver_Harvest.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\AI\\JobGivers\\JobGiver_Harvest.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\AI\\JobGivers\\JobGiver_Harvest.cs",
+              "RelativeToolTip": "GeneticRim\\AI\\JobGivers\\JobGiver_Harvest.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwBkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "CompExploder.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompExploder.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Comps\\CompExploder.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompExploder.cs",
+              "RelativeToolTip": "GeneticRim\\Comps\\CompExploder.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAUwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "Gas_PoisonCloud.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Gas and Liquid\\Gas_PoisonCloud.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Gas and Liquid\\Gas_PoisonCloud.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Gas and Liquid\\Gas_PoisonCloud.cs",
+              "RelativeToolTip": "GeneticRim\\Gas and Liquid\\Gas_PoisonCloud.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwCEAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "PawnGenerationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Sarg\\AppData\\Local\\Temp\\MetadataAsSource\\71cddbfd983245acb22ac77aafcec2a0\\DecompilationMetadataAsSourceFileProvider\\02eb4742a21048e0b3cdcc09b0355679\\PawnGenerationRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Users\\Sarg\\AppData\\Local\\Temp\\MetadataAsSource\\71cddbfd983245acb22ac77aafcec2a0\\DecompilationMetadataAsSourceFileProvider\\02eb4742a21048e0b3cdcc09b0355679\\PawnGenerationRequest.cs",
+              "ToolTip": "Verse.PawnGenerationRequest",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenToolTip": "Verse.PawnGenerationRequest",
+              "WhenOpened": "2022-09-19T13:14:32.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "DefExtension_Quality.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DefExtensions\\DefExtension_Quality.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DefExtensions\\DefExtension_Quality.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DefExtensions\\DefExtension_Quality.cs",
+              "RelativeToolTip": "GeneticRim\\DefExtensions\\DefExtension_Quality.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "DefExtension_Hybrid.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DefExtensions\\DefExtension_Hybrid.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DefExtensions\\DefExtension_Hybrid.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DefExtensions\\DefExtension_Hybrid.cs",
+              "RelativeToolTip": "GeneticRim\\DefExtensions\\DefExtension_Hybrid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "Window_DesignateGrowthCell.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\Window_DesignateGrowthCell.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\Window_DesignateGrowthCell.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\Window_DesignateGrowthCell.cs",
+              "RelativeToolTip": "..\\..\\..\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\Window_DesignateGrowthCell.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2022-09-19T13:12:29.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Core.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Core.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Core.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Core.cs",
+              "RelativeToolTip": "GeneticRim\\Core.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAADwvzwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "DefExtension_HybridChanceAlterer.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DefExtensions\\DefExtension_HybridChanceAlterer.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\DefExtensions\\DefExtension_HybridChanceAlterer.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\DefExtensions\\DefExtension_HybridChanceAlterer.cs",
+              "RelativeToolTip": "GeneticRim\\DefExtensions\\DefExtension_HybridChanceAlterer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "CompProperties_HybridGenesUseEffect.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\CompProperties\\CompProperties_HybridGenesUseEffect.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\CompProperties\\CompProperties_HybridGenesUseEffect.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\CompProperties\\CompProperties_HybridGenesUseEffect.cs",
+              "RelativeToolTip": "..\\..\\..\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\CompProperties\\CompProperties_HybridGenesUseEffect.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2022-09-19T13:12:29.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "Gas_InsectClouds.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Gas\\Gas_InsectClouds.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\1.3\\Source\\GeneticRim\\GeneticRim\\Gas\\Gas_InsectClouds.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Gas\\Gas_InsectClouds.cs",
+              "RelativeToolTip": "..\\..\\..\\1.3\\Source\\GeneticRim\\GeneticRim\\Gas\\Gas_InsectClouds.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2022-09-19T13:12:29.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "Gas_InsanityCloud.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Gas\\Gas_InsanityCloud.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\1.3\\Source\\GeneticRim\\GeneticRim\\Gas\\Gas_InsanityCloud.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Gas\\Gas_InsanityCloud.cs",
+              "RelativeToolTip": "..\\..\\..\\1.3\\Source\\GeneticRim\\GeneticRim\\Gas\\Gas_InsanityCloud.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2022-09-19T13:12:29.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "CompAnimalControlHub.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\CompAnimalControlHub.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\CompAnimalControlHub.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\CompAnimalControlHub.cs",
+              "RelativeToolTip": "..\\..\\..\\1.3\\Source\\GeneticRim\\GeneticRim\\Comps\\CompAnimalControlHub.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2022-09-19T13:12:29.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "CompProperties_Genomorpher.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompProperties\\CompProperties_Genomorpher.cs",
+              "RelativeDocumentMoniker": "GeneticRim\\Comps\\CompProperties\\CompProperties_Genomorpher.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaGeneticsExpanded\\1.5\\Source\\GeneticRim\\GeneticRim\\Comps\\CompProperties\\CompProperties_Genomorpher.cs",
+              "RelativeToolTip": "GeneticRim\\Comps\\CompProperties\\CompProperties_Genomorpher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:08:17.403Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
