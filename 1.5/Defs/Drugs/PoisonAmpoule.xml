@@ -36,6 +36,7 @@
       <ingestReportString>Taking {0}.</ingestReportString>
       <preferability>NeverForNutrition</preferability>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <defaultNumToIngestAtOnce>1</defaultNumToIngestAtOnce>
      
     </ingestible>
 	 <socialPropernessMatters>true</socialPropernessMatters>
