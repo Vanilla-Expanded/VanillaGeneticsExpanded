@@ -156,40 +156,7 @@ namespace GeneticRim
                         if (compHybrid != null) {
                             compHybrid.quality = this.genoframe?.GetModExtension<DefExtension_Quality>()?.quality ?? QualityCategory.Awful;
 
-
-                            if (pawn.def.tradeTags?.Contains("AnimalGeneticMechanoid") == false)
-                            {
-                                pawn.health.AddHediff(InternalDefOf.GR_HungerByQuality);
-                                float severity = 0.2f;
-                                switch (compHybrid.quality)
-                                {
-                                    case QualityCategory.Awful:
-                                        severity = 0f;
-                                        break;
-                                    case QualityCategory.Poor:
-                                        severity = 0.1f;
-                                        break;
-                                    case QualityCategory.Normal:
-                                        severity = 0.2f;
-                                        break;
-                                    case QualityCategory.Good:
-                                        severity = 0.3f;
-                                        break;
-                                    case QualityCategory.Excellent:
-                                        severity = 0.4f;
-                                        break;
-                                    case QualityCategory.Masterwork:
-                                        severity = 0.5f;
-                                        break;
-                                    case QualityCategory.Legendary:
-                                        severity = 0.6f;
-                                        break;
-
-                                }
-                                pawn.health.hediffSet.GetFirstHediffOfDef(InternalDefOf.GR_HungerByQuality).Severity = severity;
-
-                            }
-
+                            Core.ApplyQualityHediff(pawn, compHybrid.quality);
 
                         }
                         if (failureResult == InternalDefOf.GR_FleshGrowth && failure) { this.parent.Destroy(); }
