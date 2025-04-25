@@ -64,8 +64,7 @@ namespace GeneticRim
                     {
                         compHybrid.quality = qualityMother;
                     }
-                    
-
+                    Core.ApplyQualityHediff(pawn, compHybrid.quality);
                 }
                 
             }

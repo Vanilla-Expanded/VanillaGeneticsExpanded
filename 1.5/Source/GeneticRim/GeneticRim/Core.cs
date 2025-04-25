@@ -15,6 +15,17 @@
         public static HashSet<PawnKindDef>                                    hybridPawnKinds;
         public static List<PawnKindDef>                                       failures;
 
+        private static readonly Dictionary<QualityCategory, float> QualitySeverityMap = new Dictionary<QualityCategory, float>
+        {
+            { QualityCategory.Awful, 0f },
+            { QualityCategory.Poor, 0.1f },
+            { QualityCategory.Normal, 0.2f },
+            { QualityCategory.Good, 0.3f },
+            { QualityCategory.Excellent, 0.4f },
+            { QualityCategory.Masterwork, 0.5f },
+            { QualityCategory.Legendary, 0.6f }
+        };
+
         static Core()
         {
             genomes = DefDatabase<ThingDef>.AllDefs.Where(x => x.thingCategories?.Contains(InternalDefOf.GR_GeneticMaterial) ?? false).ToList();
@@ -131,6 +142,20 @@
            
 
             return null;
+        }
+
+        public static void ApplyQualityHediff(Pawn pawn, QualityCategory quality)
+        {
+            if (pawn.def.tradeTags?.Contains("AnimalGeneticMechanoid") == false)
+            {
+                pawn.health.AddHediff(InternalDefOf.GR_HungerByQuality);
+                bool mappingFound = QualitySeverityMap.TryGetValue(quality, out float severity);
+                if (!mappingFound)
+                {
+                    severity = 0.2f;
+                }
+                pawn.health.hediffSet.GetFirstHediffOfDef(InternalDefOf.GR_HungerByQuality).Severity = severity;
+            }
         }
 
         public static QualityCategory? GetQualityFromGenoframe(ThingDef genoframe)

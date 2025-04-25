@@ -59,7 +59,7 @@ namespace GeneticRim
                 if (compHybrid != null)
                 {
                     compHybrid.quality = (QualityCategory)Math.Min((sbyte)qualityMother, (sbyte)qualityFather);
-
+                    Core.ApplyQualityHediff(pawn, compHybrid.quality);
                 }
                 
             }
