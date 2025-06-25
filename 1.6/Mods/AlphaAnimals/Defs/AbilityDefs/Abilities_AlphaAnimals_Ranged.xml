@@ -53,7 +53,6 @@
 			<muzzleFlashScale>0</muzzleFlashScale>
 			<warmupTime>2</warmupTime>
 			<soundCast>AA_DartSound</soundCast>
-			<burstShotCount>3</burstShotCount>
 			<commonality>1</commonality>
 			<ticksBetweenBurstShots>25</ticksBetweenBurstShots>
 			<minRange>2</minRange>
