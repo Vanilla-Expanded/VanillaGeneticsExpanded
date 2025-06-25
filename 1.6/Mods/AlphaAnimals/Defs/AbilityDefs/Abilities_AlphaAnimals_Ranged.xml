@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AbilityDef>
+		<defName>AA_ExplodingWeb</defName>
+		<label>exploding web</label>
+		<description>Throw a web of sticky silk that can stun its target and explode violently.</description>
+		<iconPath>UI/Abilities/AA_Web</iconPath>
+		<cooldownTicksRange>240</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<writeCombatLog>True</writeCombatLog>
+		<verbProperties>
+			<verbClass>Verb_AbilityShoot</verbClass>
+			<defaultProjectile>AA_ExplodingWeb</defaultProjectile>
+			<accuracyTouch>1</accuracyTouch>
+			<accuracyShort>1</accuracyShort>
+			<accuracyMedium>1</accuracyMedium>
+			<accuracyLong>1</accuracyLong>
+			<range>20</range>
+			<muzzleFlashScale>0</muzzleFlashScale>
+			<warmupTime>3</warmupTime>
+			<soundCast>AA_Throw</soundCast>
+			<burstShotCount>3</burstShotCount>
+			<commonality>.8</commonality>
+			<ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+			<minRange>1</minRange>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+			</targetParams>
+			<ai_IsWeapon>false</ai_IsWeapon>
+		</verbProperties>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>AA_Bullet_TinyVenomBarb</defName>
+		<label>tiny venomous barbs</label>
+		<description>Fire a shower of small but deadly venomous barbs that pierce skin and deliver a potent toxin, weakening targets over time.</description>
+		<iconPath>UI/Abilities/AA_Bullet_VenomBarb</iconPath>
+		<cooldownTicksRange>240</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<writeCombatLog>True</writeCombatLog>
+		<verbProperties>
+			<verbClass>Verb_AbilityShoot</verbClass>
+			<defaultProjectile>AA_Bullet_TinyVenomBarb</defaultProjectile>
+			<accuracyTouch>1</accuracyTouch>
+			<accuracyShort>1</accuracyShort>
+			<accuracyMedium>1</accuracyMedium>
+			<accuracyLong>1</accuracyLong>
+			<burstShotCount>12</burstShotCount>
+			<range>20</range>
+			<muzzleFlashScale>0</muzzleFlashScale>
+			<warmupTime>2</warmupTime>
+			<soundCast>AA_DartSound</soundCast>
+			<burstShotCount>3</burstShotCount>
+			<commonality>1</commonality>
+			<ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+			<minRange>2</minRange>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+			</targetParams>
+			<ai_IsWeapon>false</ai_IsWeapon>
+		</verbProperties>
+	</AbilityDef>
+	<AbilityDef>
+		<defName>AA_HugeQuill</defName>
+		<label>huge quill</label>
+		<description>Launch a massive quill tipped with barbs that embeds deeply, causing severe pain and making removal agonizingly difficult.</description>
+		<iconPath>UI/Abilities/AA_Quill</iconPath>
+		<cooldownTicksRange>240</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<writeCombatLog>True</writeCombatLog>
+		<verbProperties>
+			<verbClass>Verb_AbilityShoot</verbClass>
+			<defaultProjectile>AA_HugeQuill</defaultProjectile>
+			<accuracyTouch>1</accuracyTouch>
+			<accuracyShort>1</accuracyShort>
+			<accuracyMedium>1</accuracyMedium>
+			<accuracyLong>1</accuracyLong>
+			<range>20</range>
+			<muzzleFlashScale>0</muzzleFlashScale>
+			<warmupTime>3</warmupTime>
+			<soundCast>AA_DartSound</soundCast>
+			<burstShotCount>3</burstShotCount>
+			<commonality>.8</commonality>
+			<minRange>2</minRange>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+			</targetParams>
+			<ai_IsWeapon>false</ai_IsWeapon>
+		</verbProperties>
+	</AbilityDef>
+</Defs>

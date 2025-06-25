@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!-- Dino Milk -->
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>Defs</xpath>
+					<value>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>VCE_CheeseGraphicOffsets_GR_Dinosauria</defName>
+								<thingDef>VCE_Cheese</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>GR_DinoMilk</key>
+									<value>5</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_DinoMilkIntoCheese</defName>
+							<label>Dino Milk into cheese</label>
+							<description>Turns 35 dino milk into 25 cheese.</description>
+							<labelOverride>Turn 35 dino milk into 25 cheese.</labelOverride>
+							<priorityInBillList>21</priorityInBillList>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<useIngredients>true</useIngredients>
+							<ingredients>
+								<li>
+									<thing>GR_DinoMilk</thing>
+									<countNeeded>35</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_Cheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName= "VCE_CheesePress"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+					<value>
+						<li>VCE_DinoMilkIntoCheese</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName= "VCE_Cheese"]/comps/li[@Class="VEF.Things.CompProperties_LabelByIngredients"]/overrides</xpath>
+					<value>
+						<li>
+							<key>GR_DinoMilk</key>
+							<value>Dino</value>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

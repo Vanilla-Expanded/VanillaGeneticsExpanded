@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<GeneticRim.ExtractableAnimalsList>
+		<defName>GR_Dinosauria</defName>
+		<tier>dino</tier>
+		<itemProduced>GR_DinoGenetic</itemProduced>
+		<extractableAnimals>
+			
+		</extractableAnimals>
+	</GeneticRim.ExtractableAnimalsList>
+</Defs>

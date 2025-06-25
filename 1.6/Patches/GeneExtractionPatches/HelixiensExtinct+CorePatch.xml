@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ReGrowth: Extinct Animals</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBird"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_RG_Dodo</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBird"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Corpse_RG_Dodo</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBird"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_RG_TerrorBird</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBird"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Corpse_RG_TerrorBird</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierOneAnimalsAvianReGrowthExtinct</defName>
+							<tier>1</tier>
+							<itemProduced>GR_AvianGenetic</itemProduced>
+							<extractableAnimals>
+								<li>RG_Dodo</li>
+								<li>RG_TerrorBird</li>
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesRodent"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_RG_SabertoothSquirrel</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesRodent"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Corpse_RG_SabertoothSquirrel</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierOneAnimalsRodentReGrowthExtinct</defName>
+							<tier>1</tier>
+							<itemProduced>GR_RodentGenetic</itemProduced>
+							<extractableAnimals>
+								<li>RG_SabertoothSquirrel</li>
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierTwoAnimalsReptilesReGrowthExtinct</defName>
+							<tier>2</tier>
+							<itemProduced>GR_ReptileGenetic</itemProduced>
+							<extractableAnimals>
+								<li>RG_ArcticDrak</li>
+								<li>RG_WoollyStegosaurus</li>
+								<li>RG_Velociraptor</li>
+								<li>RG_Thrinaxodon</li>  <!-- As a synapsid (reptile/mammal), Thrinaxodon's classification as a reptile is slightly controversial, but since it drops dinosaurs hide, I think its status is already decided by Helixien -->
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8281E4EE-FE39-4FAD-BA55-326503AE9284}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GeneticRim</RootNamespace>
+    <AssemblyName>GeneticRim</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>8</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>8</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony, Version=2.3.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.3.6\lib\net472\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VEF">
+      <HintPath>..\..\..\..\..\VanillaExpandedFramework\1.6\Assemblies\VEF.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abilities\Ability_Charge.cs" />
+    <Compile Include="Abilities\Ability_Pounce.cs" />
+    <Compile Include="Abilities\CompCreateThingDefAround.cs" />
+    <Compile Include="Abilities\CompDeathRay.cs" />
+    <Compile Include="Abilities\CompGiveHediff.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_CreateThingDefAround.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_DeathRay.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_GiveHediff.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_AnimalDeconstruct.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_AnimalHuntJob.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_ArchotechDNAExtraction.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_InsertArchotechGrowthCell.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_InsertGrowthCell.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_InsertIngredients.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_ParagonConversion.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_PlantCut.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_Recruit.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_Talk.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_UseExcavator.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_ClearSnow.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_Harvest.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_Hunt.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_Execute.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_FeedPatient.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_Deconstruct.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_Mine.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_Slaughter.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_Clean.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_Flick.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_TryRecruit.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_Talk.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_TryQuarryJob.cs" />
+    <Compile Include="AI\WorkGivers\WorkGiver_ParagonConversion.cs" />
+    <Compile Include="AI\WorkGivers\WorkGiver_ArchotechDNAExtraction.cs" />
+    <Compile Include="AI\WorkGivers\WorkGiver_InsertIngredients.cs" />
+    <Compile Include="Buildings\Building_ArchocentipedeFormer.cs" />
+    <Compile Include="Buildings\Building_ArchoWomb.cs" />
+    <Compile Include="Buildings\Building_BiomechanicalLabBeacon.cs" />
+    <Compile Include="Buildings\Building_DNAStorageBank.cs" />
+    <Compile Include="Buildings\Building_Mechafuse.cs" />
+    <Compile Include="Buildings\Building_MechahybridAntenna.cs" />
+    <Compile Include="Buildings\Building_Mechahybridizer.cs" />
+    <Compile Include="Commands\Command_SetParagonList.cs" />
+    <Compile Include="Commands\Command_SetAnimalList.cs" />
+    <Compile Include="Commands\Command_SetGenomeList.cs" />
+    <Compile Include="Commands\GenomeListSetupUtility.cs" />
+    <Compile Include="Abilities\CompDetonate.cs" />
+    <Compile Include="Comps\CompApplyAgeDiseases.cs" />
+    <Compile Include="Comps\CompExperienceFromCaravan.cs" />
+    <Compile Include="Comps\CompFleshFlies.cs" />
+    <Compile Include="Comps\CompFleshGrowth.cs" />
+    <Compile Include="Comps\CompGeneticFailure.cs" />
+    <Compile Include="Comps\CompGenomorpher.cs" />
+    <Compile Include="Comps\CompElectroWomb.cs" />
+    <Compile Include="Comps\CompArchotechGrowthCell.cs" />
+    <Compile Include="Comps\CompGrowthCell.cs" />
+    <Compile Include="Comps\CompHorseHybrid.cs" />
+    <Compile Include="Comps\CompHumanoidHybrid.cs" />
+    <Compile Include="Comps\CompHybrid.cs" />
+    <Compile Include="Abilities\Properties\CompProperties_Detonate.cs" />
+    <Compile Include="Comps\CompDieUnlessReset.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_ExperienceFromCaravan.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_FleshFlies.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_GeneticFailure.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_HorseHybrid.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_HumanoidHybrid.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_DieUnlessReset.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_RegisterMechHybridWithAntenna.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_RegisterMechAntenna.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_RandomItemSpawner.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_RandomHybridSpawner.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_Genomorpher.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_ElectroWomb.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_FleshGrowth.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_SpawnFleshGrowths.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_StartCharged.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_TargetableAnimalOrCorpse.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_TargetEffect_Extract.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_TempRuinableAndDestroy.cs" />
+    <Compile Include="Comps\CompRandomHybridSpawner.cs" />
+    <Compile Include="Comps\CompRandomItemSpawner.cs" />
+    <Compile Include="Comps\CompRegisterMechAntenna.cs" />
+    <Compile Include="Comps\CompRegisterMechHybridWithAntenna.cs" />
+    <Compile Include="Comps\CompSpawnFleshGrowths.cs" />
+    <Compile Include="Comps\CompStartCharged.cs" />
+    <Compile Include="Comps\CompTargetableAnimalOrCorpse.cs" />
+    <Compile Include="Comps\CompTargetEffect_Extract.cs" />
+    <Compile Include="Comps\CompTempRuinableAndDestroy.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_BeeExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_SmallAcidExplosion.cs" />
+    <Compile Include="DefExtensions\DefExtension_Paragon.cs" />
+    <Compile Include="Dev Mode\GenerateMechLabQuest.cs" />
+    <Compile Include="Dev Mode\SetPawnQuality.cs" />
+    <Compile Include="Dev Mode\SpawnHybridRaid.cs" />
+    <Compile Include="Dev Mode\GenerateAbandonedLabQuest.cs" />
+    <Compile Include="Game, World and Map Components\GameComponent_ManffaloExperience.cs" />
+    <Compile Include="Game, World and Map Components\WorldComponent_LabQuests.cs" />
+    <Compile Include="Game, World and Map Components\WorldComponent_FailuresChecker.cs" />
+    <Compile Include="Gas and Liquid\Persistant_Fuel.cs" />
+    <Compile Include="Harmony\Building_Trap_CheckSpring.cs" />
+    <Compile Include="Harmony\Caravan_NightResting.cs" />
+    <Compile Include="Harmony\MedicalRecipesUtility_SpawnThingsFromHediffs.cs" />
+    <Compile Include="Harmony\ExecutionUtility_ExecutionInt.cs" />
+    <Compile Include="Harmony\Recipe_InstallArtificialBodyPart_ApplyOnPawn.cs" />
+    <Compile Include="Harmony\Thing_ButcherProducts.cs" />
+    <Compile Include="Harmony\Verb_CastAbility_DrawRadius.cs" />
+    <Compile Include="InteractionWorkers\InteractionWorker_AnimalSpeak.cs" />
+    <Compile Include="InteractionWorkers\InteractionWorker_UWUSpeak.cs" />
+    <Compile Include="PawnRenderNodes\PawnRenderNode_Burrower.cs" />
+    <Compile Include="PlaceWorkers\PlacementWorker_MustBeRoofed.cs" />
+    <Compile Include="Projectiles\Projectile_Distortion.cs" />
+    <Compile Include="Recipes\Recipe_InstallGeneticBodyPart.cs" />
+    <Compile Include="Settings\GeneticRim_SettingsController.cs" />
+    <Compile Include="Settings\SettingsHelper.cs" />
+    <Compile Include="ThingFilters\SpecialThingFilterWorker_Extracted.cs" />
+    <Compile Include="ThingFilters\SpecialThingFilterWorker_Unextracted.cs" />
+    <Compile Include="ThinkNodes\ThinkNode_Mansquirrel.cs" />
+    <Compile Include="ThinkNodes\ThinkNode_Manwolf.cs" />
+    <Compile Include="ThinkNodes\ThinkNode_Manbear.cs" />
+    <Compile Include="ThinkNodes\ThinkNode_Thrumboman.cs" />
+    <Compile Include="ThinkNodes\ThinkNode_Catman.cs" />
+    <Compile Include="ThinkNodes\ThinkNode_Lizardman.cs" />
+    <Compile Include="ThinkNodes\ThinkNode_Manscarab.cs" />
+    <Compile Include="ThinkNodes\ThinkNode_Moleman.cs" />
+    <Compile Include="ThinkNodes\ThinkNode_Dogman.cs" />
+    <Compile Include="ThinkNodes\ThinkNode_HumanoidHybrid.cs" />
+    <Compile Include="ThinkNodes\ThinkNode_Muffaloman.cs" />
+    <Compile Include="ThinkNodes\ThinkNode_Turkeyman.cs" />
+    <Compile Include="Windows and Dialogs\Window_DesignateGrowthCell.cs" />
+    <Compile Include="Core.cs" />
+    <Compile Include="DamageWorkers\DamageWorker_DevastatingBite.cs" />
+    <Compile Include="DamageWorkers\DamageWorker_Double.cs" />
+    <Compile Include="DamageWorkers\DamageWorker_GoForTheEyes.cs" />
+    <Compile Include="DamageWorkers\DamageWorker_GoForTheHead.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_AcidExplosion.cs" />
+    <Compile Include="DefExtensions\DefExtension_Hybrid.cs" />
+    <Compile Include="DefExtensions\DefExtension_HybridChanceAlterer.cs" />
+    <Compile Include="DefExtensions\DefExtension_HybridFailure.cs" />
+    <Compile Include="DefExtensions\DefExtension_Quality.cs" />
+    <Compile Include="DefOfs\InternalDefOf.cs" />
+    <Compile Include="Defs\EndgameGenomesDefs.cs" />
+    <Compile Include="Defs\ExtractableAnimalsList.cs" />
+    <Compile Include="Defs\HediffToBodyparts.cs" />
+    <Compile Include="Dev Mode\SpawnPawnWithQuality.cs" />
+    <Compile Include="Dev Mode\SuperItemSpawner.cs" />
+    <Compile Include="Endgame\ArchotechCountdown.cs" />
+    <Compile Include="Game, World and Map Components\ArchotechExtractableAnimals_MapComponent.cs" />
+    <Compile Include="Game, World and Map Components\GameComponent_HyperlinkInitializer.cs" />
+    <Compile Include="Game, World and Map Components\WorldComponent_RoamingMonstrosities.cs" />
+    <Compile Include="Gas and Liquid\Gas_Hairballs.cs" />
+    <Compile Include="Gas and Liquid\Gas_InsanityCloud.cs" />
+    <Compile Include="Gas and Liquid\Gas_InsectClouds.cs" />
+    <Compile Include="Gas and Liquid\Gas_PoisonCloud.cs" />
+    <Compile Include="GraphicsCache\GraphicsCache.cs" />
+    <Compile Include="Harmony\ResurrectionUtility_TryResurrect.cs" />
+    <Compile Include="Harmony\HediffGiver_Birthday_TryApplyAndSimulateSeverityChange.cs" />
+    <Compile Include="Harmony\JobDriver_Nuzzle_MakeNewToils.cs" />
+    <Compile Include="Harmony\Thing_Ingested.cs" />
+    <Compile Include="Harmony\ForagedFoodPerDayCalculator_GetForagedFoodCountPerInterval_Patch.cs" />
+    <Compile Include="Harmony\GenRecipe_PostProcessProduct.cs" />
+    <Compile Include="Harmony\CompHatcher_Hatch.cs" />
+    <Compile Include="Harmony\Hediff_Pregnant_DoBirthSpawn.cs" />
+    <Compile Include="Harmony\MassUtility_Capacity.cs" />
+    <Compile Include="Harmony\Patch_BodySize.cs" />
+    <Compile Include="Harmony\Patch_GetDamageFactor.cs" />
+    <Compile Include="Harmony\Patch_HealthScale.cs" />
+    <Compile Include="Harmony\Patch_HungerRate.cs" />
+    <Compile Include="Harmony\Patch_PawnLabel.cs" />
+    <Compile Include="Harmony\Patch_StatValueUnfinalized.cs" />
+    <Compile Include="Harmony\Recipe_RemoveImplant_ApplyOnPawn.cs" />
+    <Compile Include="Harmony\Root_Play_Update.cs" />
+    <Compile Include="Harmony\MapParent_RecalculateHibernatableIncidentTargets.cs" />
+    <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="Hediff Comps\CompProperties\HediffCompProperties_RabidSlash.cs" />
+    <Compile Include="Hediff Comps\CompProperties\HediffCompProperties_RotWhenDead.cs" />
+    <Compile Include="Hediff Comps\CompProperties\HediffCompProperties_BloodFrenzy.cs" />
+    <Compile Include="Hediff Comps\CompProperties\HediffCompProperties_GiveHediffsInRangeExpanded.cs" />
+    <Compile Include="Hediff Comps\CompProperties\HediffCompProperties_ImplantQuality.cs" />
+    <Compile Include="Hediff Comps\CompProperties\HediffCompProperties_PeriodicWounds.cs" />
+    <Compile Include="Hediff Comps\CompProperties\HediffCompProperties_Vomiting.cs" />
+    <Compile Include="Hediff Comps\HediffCompImplantQuality.cs" />
+    <Compile Include="Hediff Comps\HediffComp_RabidSlash.cs" />
+    <Compile Include="Hediff Comps\HediffComp_RotWhenDead.cs" />
+    <Compile Include="Hediff Comps\HediffComp_BloodFrenzy.cs" />
+    <Compile Include="Hediff Comps\HediffComp_GiveHediffsInRangeExpanded.cs" />
+    <Compile Include="Hediff Comps\HediffComp_PeriodicWounds.cs" />
+    <Compile Include="Hediff Comps\HediffComp_Vomiting.cs" />
+    <Compile Include="Hediffs\Hediff_Burrowing.cs" />
+    <Compile Include="Hediffs\Hediff_InsectClouds.cs" />
+    <Compile Include="Hediffs\Hediff_StampedeClouds.cs" />
+    <Compile Include="Comps\CompExploder.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_Exploder.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_BiggerExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_Eggxplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_EMPExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_FrostExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_GargantuanExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_HairballExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_PsionicExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_SmallBomb.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_SmallHairballExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_StunningExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_ToxicExplosion.cs" />
+    <Compile Include="Dev Mode\FixedColonyAnimalsDebug.cs" />
+    <Compile Include="Incidents\IncidentWorker_Monstrosities.cs" />
+    <Compile Include="PlaceWorkers\PlaceWorker_ShowSpawnerRadius.cs" />
+    <Compile Include="Settings\GeneticRim_Settings.cs" />
+    <Compile Include="Hediff Comps\HediffComp_Exploder.cs" />
+    <Compile Include="Hediff Comps\CompProperties\HediffCompProperties_Exploder.cs" />
+    <Compile Include="Hediff Comps\HediffComp_Hatcher.cs" />
+    <Compile Include="Hediff Comps\CompProperties\HediffCompProperties_Hatcher.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rooms\RoomRoleWorker_GeneLab.cs" />
+    <Compile Include="StaticCollections\StaticCollectionsClass.cs" />
+    <Compile Include="StatPartDefs\StatPart_WorkTableImplants.cs" />
+    <Compile Include="ThoughtWorkers\ThoughtWorker_Precept_Failures.cs" />
+    <Compile Include="ThoughtWorkers\ThoughtWorker_Precept_HumanoidHybrids.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

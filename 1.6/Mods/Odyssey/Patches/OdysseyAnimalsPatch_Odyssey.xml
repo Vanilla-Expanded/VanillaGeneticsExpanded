@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Odyssey</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBear"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_Panda</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBear"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Corpse_Panda</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_Cat_Scimitar</li>
+						<li>Corpse_Tiger</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Corpse_Cat_Scimitar</li>
+						<li>Corpse_Tiger</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBird"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_Sparrow</li>
+						<li>Corpse_Crow</li>
+						<li>Corpse_Bluebird</li>
+						<li>Corpse_Quail</li>
+						<li>Corpse_Macaw</li>
+						<li>Corpse_Flamingo</li>
+						<li>Corpse_Heron</li>
+						<li>Corpse_Swan</li>
+						<li>Corpse_Peacock</li>
+						<li>Corpse_Vulture</li>
+						<li>Corpse_Penguin</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBird"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Corpse_Sparrow</li>
+						<li>Corpse_Crow</li>
+						<li>Corpse_Bluebird</li>
+						<li>Corpse_Quail</li>
+						<li>Corpse_Macaw</li>
+						<li>Corpse_Flamingo</li>
+						<li>Corpse_Heron</li>
+						<li>Corpse_Swan</li>
+						<li>Corpse_Peacock</li>
+						<li>Corpse_Vulture</li>
+						<li>Corpse_Penguin</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesCanine"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_BogHound</li>
+						<li>Corpse_Wolf_Great</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesCanine"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Corpse_BogHound</li>
+						<li>Corpse_Wolf_Great</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesRodent"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_PrairieDog</li>
+						<li>Corpse_Porcupine</li>
+						<li>Corpse_Megavole</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesRodent"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Corpse_PrairieDog</li>
+						<li>Corpse_Porcupine</li>
+						<li>Corpse_Megavole</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_Muskox</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Corpse_Muskox</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierOneAnimalsBearsOdyssey</defName>
+							<tier>1</tier>
+							<itemProduced>GR_UrsineGenetic</itemProduced>
+							<extractableAnimals>
+								<li>Panda</li>
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierOneAnimalsFelineOdyssey</defName>
+							<tier>1</tier>
+							<itemProduced>GR_FelineGenetic</itemProduced>
+							<extractableAnimals>
+								<li>Cat_Scimitar</li>
+								<li>Tiger</li>
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierOneAnimalsAvianOdyssey</defName>
+							<tier>1</tier>
+							<itemProduced>GR_AvianGenetic</itemProduced>
+							<extractableAnimals>
+								<li>Sparrow</li>
+								<li>Crow</li>
+								<li>Bluebird</li>
+								<li>Quail</li>
+								<li>Macaw</li>
+								<li>Flamingo</li>
+								<li>Heron</li>
+								<li>Swan</li>
+								<li>Peacock</li>
+								<li>Vulture</li>
+								<li>Penguin</li>
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierOneAnimalsCanineOdyssey</defName>
+							<tier>1</tier>
+							<itemProduced>GR_CanineGenetic</itemProduced>
+							<extractableAnimals>
+								<li>BogHound</li>
+								<li>Wolf_Great</li>
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierOneAnimalsRodentOdyssey</defName>
+							<tier>1</tier>
+							<itemProduced>GR_RodentGenetic</itemProduced>
+							<extractableAnimals>
+								<li>PrairieDog</li>
+								<li>Porcupine</li>
+								<li>Megavole</li>
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierOneAnimalsMuffaloOdyssey</defName>
+							<tier>1</tier>
+							<itemProduced>GR_MuffaloGenetic</itemProduced>
+							<extractableAnimals>
+								<li>Muskox</li>
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierTwoAnimalsInsectoidsOdyssey</defName>
+							<tier>2</tier>
+							<itemProduced>GR_InsectoidGenetic</itemProduced>
+							<extractableAnimals>
+								<li>Larva</li>
+								<li>HiveQueen</li>
+								<li>Locust</li>
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierTwoAnimalsReptilesOdyssey</defName>
+							<tier>2</tier>
+							<itemProduced>GR_ReptileGenetic</itemProduced>
+							<extractableAnimals>
+								<li>MonitorLizard</li>
+								<li>Alligator</li>
+								<li>SeaTurtle</li>
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierThreeAnimalsColossalOdyssey</defName>
+							<tier>3</tier>
+							<itemProduced>GR_ThrumboGenetic</itemProduced>
+							<extractableAnimals>
+								<li>AlphaThrumbo</li>
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+
