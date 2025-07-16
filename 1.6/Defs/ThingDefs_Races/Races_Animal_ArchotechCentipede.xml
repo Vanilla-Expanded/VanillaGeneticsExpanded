@@ -65,7 +65,8 @@
 				<makeNonFleeingToo>true</makeNonFleeingToo>
 			</li>
 			<li Class="VEF.AnimalBehaviours.CompProperties_Regeneration">
-				<rateInTicks>10</rateInTicks>
+				<rateInTicks>20</rateInTicks>
+				<healAmount>0.2</healAmount>
 			</li>
 		</comps>
 		<race>
