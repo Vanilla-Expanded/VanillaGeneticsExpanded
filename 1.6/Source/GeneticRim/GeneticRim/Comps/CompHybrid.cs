@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using RimWorld;
 using Verse;
 
@@ -67,6 +68,13 @@ namespace GeneticRim
             }
 
             return 1f;
+        }
+
+        public override void GetStatsExplanation(StatDef stat, StringBuilder sb, string whitespace = "")
+        {
+            var factor = GetStatFactor(stat);
+            if (factor != 1f)
+                sb.AppendLine($"{whitespace}{"StatsReport_QualityMultiplier".Translate()}: x{factor.ToStringPercent()}");
         }
 
         public float GetToolPowerFactor() =>
