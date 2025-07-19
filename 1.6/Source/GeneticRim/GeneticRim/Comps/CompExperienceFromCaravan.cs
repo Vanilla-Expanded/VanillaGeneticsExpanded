@@ -26,9 +26,9 @@ namespace GeneticRim
 
         }
 
-        public override void CompTick()
+        public override void CompTickInterval(int delta)
         {
-            if (parent.IsHashIntervalTick(interval))
+            if (parent.IsHashIntervalTick(interval, delta))
             {
 
 

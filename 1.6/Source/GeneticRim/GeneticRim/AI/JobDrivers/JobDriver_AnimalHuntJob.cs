@@ -67,7 +67,7 @@ namespace GeneticRim
                 }
                 return false;
             });
-            Toil toil = new Toil();
+            Toil toil = ToilMaker.MakeToil();
             toil.initAction = delegate
             {
                 jobStartTick = Find.TickManager.TicksGame;
@@ -119,7 +119,7 @@ namespace GeneticRim
 
         private Toil StartCollectCorpseToil()
         {
-            Toil toil = new Toil();
+            Toil toil = ToilMaker.MakeToil();
             toil.initAction = delegate
             {
                 if (Victim == null)

@@ -44,13 +44,13 @@ namespace GeneticRim
             Toil toil = Toils_Goto.GotoThing(PlantInd, PathEndMode.Touch).FailOnDespawnedNullOrForbidden(PlantInd);
 
             yield return toil;
-            Toil cut = new Toil();
-            cut.tickAction = delegate
+            Toil cut = ToilMaker.MakeToil();
+            cut.tickIntervalAction = delegate(int delta)
             {
                 Pawn actor = cut.actor;
 
                 Plant plant = Plant;
-                workDone += WorkDonePerTick(actor, Plant);
+                workDone += WorkDonePerTick(actor, Plant) * delta;
                 if (workDone >= plant.def.plant.harvestWork)
                 {
                     if (plant.def.plant.harvestedThingDef != null)

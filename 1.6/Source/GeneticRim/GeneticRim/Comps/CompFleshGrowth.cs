@@ -50,11 +50,11 @@ namespace GeneticRim
             }
         }
 
-        public override void CompTick()
+        public override void CompTickInterval(int delta)
         {
-            base.CompTick();
+            base.CompTickInterval(delta);
 
-            if (this.parent.IsHashIntervalTick(7500))
+            if (this.parent.IsHashIntervalTick(7500, delta))
             {
 
                 float num = this.parent.Map.glowGrid.GroundGlowAt(this.parent.Position, false);
@@ -100,7 +100,7 @@ namespace GeneticRim
 
 
             }
-            if (this.parent.IsHashIntervalTick(30000))
+            if (this.parent.IsHashIntervalTick(30000, delta))
             {
 
                 if (this.parent.Map.listerThings.ThingsOfDef(InternalDefOf.GR_FleshFlies.race).Count < 40)
