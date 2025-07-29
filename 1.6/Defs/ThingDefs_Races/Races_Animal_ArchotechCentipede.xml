@@ -12,7 +12,7 @@
 			<ComfyTemperatureMax>3500</ComfyTemperatureMax>
 			<PsychicSensitivity>0</PsychicSensitivity>
 			<ToxicResistance>1</ToxicResistance>
-			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			<Flammability>0</Flammability>
 			<MarketValue>4000000</MarketValue>
 			<ArmorRating_Blunt>2</ArmorRating_Blunt>
