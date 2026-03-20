@@ -71,6 +71,7 @@
 	<GR_Genomorpher_Ingredients>Ingredients: {0}, {1}, {2}, {3}</GR_Genomorpher_Ingredients>
 	<GR_Genomorpher_Ingredients_NoFrame>Ingredients: {0}, {1}, {2}</GR_Genomorpher_Ingredients_NoFrame>
 	<GR_Genomorpher_Finished>A growth cell has been produced</GR_Genomorpher_Finished>
+	<GR_Malformed_GrowthCell>A growth cell without two genomes or without genoframe was created and therefore failed. You should report this as a bug!</GR_Malformed_GrowthCell>
 	<!-- ElectroWomb -->
 	<GR_ElectroWomb_Progress>Progress: {0}</GR_ElectroWomb_Progress>
 	<GR_ElectroWomb_Finished>A creature has hatched from an electrowomb</GR_ElectroWomb_Finished>

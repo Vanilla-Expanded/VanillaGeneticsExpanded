@@ -91,7 +91,15 @@ namespace GeneticRim
 
                     if (this.progress >= 1)
                     {
-                        GenSpawn.Spawn(this.growthCell, this.parent.InteractionCell, this.parent.Map);
+                        CompGrowthCell cell = this.growthCell?.TryGetComp<CompGrowthCell>();
+                        if (cell.genomeDominant is null || cell.genomeSecondary is null || cell.genoframe is null)
+                        {
+                            Messages.Message("GR_Malformed_GrowthCell".Translate(), this.parent, MessageTypeDefOf.NegativeEvent, true);
+                        }
+                        else {
+                            GenSpawn.Spawn(this.growthCell, this.parent.InteractionCell, this.parent.Map);
+                        }
+                        
                         this.duration = -1;
                         this.progress = -1f;
                         this.growthCell = null;
