@@ -9,6 +9,7 @@
 		<pawnSingular>roaming monstrosity</pawnSingular>
 		<pawnsPlural>roaming monstrosities</pawnsPlural>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
 		<fixedName>roaming monstrosities</fixedName>
 		<factionIconPath>World/WorldObjects/Expanding/Sites/Manhunters</factionIconPath>
 		<colorSpectrum>

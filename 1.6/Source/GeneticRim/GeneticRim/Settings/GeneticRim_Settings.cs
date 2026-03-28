@@ -149,7 +149,8 @@ namespace GeneticRim
                 GR_QuestRate = GR_QuestRateBase;
             }
 
-            var RaidsRateLabel = listingStandard.LabelPlusButton("GR_RaidsRate".Translate() + ": " + GR_RaidsRate, "GR_RaidsRateTooltip".Translate());
+            var RaidsRateLabel = listingStandard.LabelPlusButton("GR_RaidsRate".Translate() + ": " + GR_RaidsRate + "GR_RaidsRateDetails".Translate(GR_RaidsRate * WorldComponent_RoamingMonstrosities.incidentDays.min,
+                GR_RaidsRate * WorldComponent_RoamingMonstrosities.incidentDays.max), "GR_RaidsRateTooltip".Translate());
             GR_RaidsRate = (float)Math.Round(listingStandard.Slider(GR_RaidsRate, 0.1f, 5f), 1);
             if (listingStandard.Settings_Button("GR_Reset".Translate(), new Rect(0f, RaidsRateLabel.position.y + 35, 180f, 29f)))
             {
