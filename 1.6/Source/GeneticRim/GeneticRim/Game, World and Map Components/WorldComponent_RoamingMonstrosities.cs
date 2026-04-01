@@ -37,7 +37,7 @@ namespace GeneticRim
                         {
                             IncidentParms parms = StorytellerUtility.DefaultParmsNow(IncidentCategoryDefOf.ThreatBig, this.world);
                             Map map = Find.AnyPlayerHomeMap;
-                            if (map != null && map.Biome.defName!= "OuterSpaceBiome") {
+                            if (map != null && map.Biome.defName!= "OuterSpaceBiome" && !map.Biome.inVacuum) {
                                 parms.target = map;
 
                                 IncidentDef def = InternalDefOf.GR_ManhunterMonstrosities;
