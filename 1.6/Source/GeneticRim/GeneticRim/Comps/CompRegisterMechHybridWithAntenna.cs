@@ -15,11 +15,11 @@ namespace GeneticRim
             }
         }
 
-        public override void CompTick()
+        public override void CompTickInterval(int delta)
         {
-            base.CompTick();
+            base.CompTickInterval(delta);
 
-            if (this.parent.IsHashIntervalTick(Props.timer))
+            if (this.parent.IsHashIntervalTick(Props.timer, delta))
             {
                 CheckForAntenna();
             }

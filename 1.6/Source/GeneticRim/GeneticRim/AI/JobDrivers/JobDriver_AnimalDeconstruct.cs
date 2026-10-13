@@ -43,15 +43,15 @@ namespace GeneticRim
 			this.FailOnThingMissingDesignation(TargetIndex.A, Designation);
 			this.FailOnForbidden(TargetIndex.A);
 			yield return Toils_Goto.GotoThing(TargetIndex.A, (Target is Building_Trap) ? PathEndMode.OnCell : PathEndMode.Touch);
-			Toil doWork = new Toil().FailOnDestroyedNullOrForbidden(TargetIndex.A).FailOnCannotTouch(TargetIndex.A, PathEndMode.Touch);
+			Toil doWork = ToilMaker.MakeToil().FailOnDestroyedNullOrForbidden(TargetIndex.A).FailOnCannotTouch(TargetIndex.A, PathEndMode.Touch);
 			doWork.initAction = delegate
 			{
 				totalNeededWork = TotalNeededWork;
 				workLeft = totalNeededWork;
 			};
-			doWork.tickAction = delegate
+			doWork.tickIntervalAction = delegate(int delta)
 			{
-				workLeft -= 1.7f;
+				workLeft -= 1.7f * delta;
 				
 				if (workLeft <= 0f)
 				{
@@ -62,7 +62,7 @@ namespace GeneticRim
 			doWork.WithProgressBar(TargetIndex.A, () => 1f - workLeft / totalNeededWork);
 			
 			yield return doWork;
-			Toil toil = new Toil();
+			Toil toil = ToilMaker.MakeToil();
 			toil.initAction = delegate
 			{
 				if (Target.Faction != null)

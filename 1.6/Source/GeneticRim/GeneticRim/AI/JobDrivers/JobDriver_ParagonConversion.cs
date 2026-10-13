@@ -34,7 +34,7 @@ namespace GeneticRim
 
 			}
 			yield return toil;
-			Toil use = new Toil();
+			Toil use = ToilMaker.MakeToil();
 
 			use.initAction = delegate
 			{

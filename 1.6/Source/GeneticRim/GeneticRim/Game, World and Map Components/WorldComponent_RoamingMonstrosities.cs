@@ -10,7 +10,8 @@ namespace GeneticRim
     public class WorldComponent_RoamingMonstrosities : WorldComponent
     {
         public int tickCounter;
-        public int ticksToNextAssault = 60000 * 15;
+        public int ticksToNextAssault = 60000 * 30; // First raid at 30 days
+        public static IntRange incidentDays = new IntRange(30,40); // Every 35 days average
 
 
         public WorldComponent_RoamingMonstrosities(World world) : base(world)
@@ -36,13 +37,13 @@ namespace GeneticRim
                         {
                             IncidentParms parms = StorytellerUtility.DefaultParmsNow(IncidentCategoryDefOf.ThreatBig, this.world);
                             Map map = Find.AnyPlayerHomeMap;
-                            if (map != null && map.Biome.defName!= "OuterSpaceBiome") {
+                            if (map != null && map.Biome.defName!= "OuterSpaceBiome" && !map.Biome.inVacuum) {
                                 parms.target = map;
 
                                 IncidentDef def = InternalDefOf.GR_ManhunterMonstrosities;
                                 def.Worker.TryExecute(parms);
 
-                                ticksToNextAssault = (int)(60000 * Rand.RangeInclusive(10, 30) * GeneticRim_Mod.settings.GR_RaidsRate);
+                                ticksToNextAssault = (int)(60000 * incidentDays.RandomInRange * GeneticRim_Mod.settings.GR_RaidsRate);
                                 tickCounter = 0;
                             }
                             

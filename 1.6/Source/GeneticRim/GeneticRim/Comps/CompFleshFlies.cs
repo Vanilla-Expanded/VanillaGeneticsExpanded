@@ -18,14 +18,11 @@ namespace GeneticRim
         }
 
 
-
-       
-
-        public override void CompTick()
+        public override void CompTickInterval(int delta)
         {
-            base.CompTick();
+            base.CompTickInterval(delta);
 
-            if (this.parent.IsHashIntervalTick(20))
+            if (this.parent.IsHashIntervalTick(20, delta))
             {
 
                 Pawn pawn = this.parent as Pawn;

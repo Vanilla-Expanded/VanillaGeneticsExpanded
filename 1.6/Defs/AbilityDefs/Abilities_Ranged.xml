@@ -173,7 +173,7 @@
 			<range>6</range>
 			<muzzleFlashScale>2</muzzleFlashScale>
 			<warmupTime>1</warmupTime>
-			<forcedMissRadius>1</forcedMissRadius>
+			
 			<burstShotCount>2</burstShotCount>
 			<soundCast>ThrowMolotovCocktail</soundCast>
 			<commonality>1</commonality>
@@ -207,7 +207,7 @@
 			<muzzleFlashScale>2</muzzleFlashScale>
 			<warmupTime>3.5</warmupTime>
 			<soundCast>Pawn_BigInsect_Call</soundCast>
-			<forcedMissRadius>2</forcedMissRadius>
+		
 			<commonality>.8</commonality>
 			<minRange>4</minRange>
 			<targetParams>
@@ -268,7 +268,7 @@
 			<range>22</range>
 			<defaultCooldownTime>3</defaultCooldownTime>
 			<muzzleFlashScale>2</muzzleFlashScale>
-			<forcedMissRadius>2</forcedMissRadius>
+			
 			<warmupTime>3</warmupTime>
 			<soundCast>Pawn_Mech_Centipede_Call</soundCast>
 			<commonality>1</commonality>
@@ -303,7 +303,7 @@
 			<muzzleFlashScale>2</muzzleFlashScale>
 			<warmupTime>0.3</warmupTime>
 			<soundCast>ThrowMolotovCocktail</soundCast>
-			<forcedMissRadius>2</forcedMissRadius>
+			
 			<commonality>1</commonality>
 			<minRange>2</minRange>
 			<targetParams>
@@ -365,7 +365,7 @@
 			<warmupTime>6</warmupTime>
 			<defaultCooldownTime>4</defaultCooldownTime>
 			<soundCast>Pawn_Mech_Centipede_Call</soundCast>
-			<forcedMissRadius>2</forcedMissRadius>
+			
 			<commonality>1</commonality>
 			<minRange>4</minRange>
 			<targetParams>
@@ -548,7 +548,7 @@
 			<warmupTime>2</warmupTime>
 			<soundCast>GR_Singularity</soundCast>
 			<commonality>1</commonality>
-			<forcedMissRadius>2</forcedMissRadius>
+			
 			<minRange>2</minRange>
 			<targetParams>
 				<canTargetPawns>true</canTargetPawns>

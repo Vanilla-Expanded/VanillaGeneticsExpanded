@@ -34,10 +34,10 @@ namespace GeneticRim
 
         }
 
-        public override void CompTick()
+        public override void CompTickInterval(int delta)
         {
-            base.CompTick();
-            if (this.parent.IsHashIntervalTick(500))
+            base.CompTickInterval(delta);
+            if (this.parent.IsHashIntervalTick(500, delta))
             {
 
                 int num = GenRadial.NumCellsInRadius(GeneticRim_Mod.settings.GR_HybridSpawnerRadius);

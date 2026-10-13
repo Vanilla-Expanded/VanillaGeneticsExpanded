@@ -42,7 +42,6 @@
 						<li>Corpse_AEXP_Cheetah</li>
 					</value>
 				</li>
-				
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
@@ -108,26 +107,19 @@
 						</GeneticRim.ExtractableAnimalsList>
 					</value>
 				</li>
-				
-					<li Class="PatchOperationAdd">
-				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBoomalope"]/ingredients/li/filter/thingDefs</xpath>
-				<value>
-					<li>Corpse_AEXP_Boombat</li>
-					
-
-				</value>
-			</li>
-
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBoomalope"]/fixedIngredientFilter/thingDefs</xpath>
-				<value>
-					<li>Corpse_AEXP_Boombat</li>
-					
-					
-				</value>
-			</li>	
-			
-			<li Class="PatchOperationAdd">
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBoomalope"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Corpse_AEXP_Boombat</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBoomalope"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Corpse_AEXP_Boombat</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
 						<GeneticRim.ExtractableAnimalsList>
@@ -136,13 +128,11 @@
 							<itemProduced>GR_BoomalopeGenetic</itemProduced>
 							<extractableAnimals>
 								<li>AEXP_Boombat</li>
-								
 							</extractableAnimals>
 						</GeneticRim.ExtractableAnimalsList>
 					</value>
 				</li>
-			
-			<li Class="PatchOperationAdd">
+				<li Class="PatchOperationAdd">
 					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesCanine"]/ingredients/li/filter/thingDefs</xpath>
 					<value>
 						<li>Corpse_AEXP_ArcticCoyote</li>
@@ -313,7 +303,6 @@
 						<li>Corpse_AEXP_Hyena</li>
 					</value>
 				</li>
-				
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
@@ -368,30 +357,39 @@
 						</GeneticRim.ExtractableAnimalsList>
 					</value>
 				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBird"]/ingredients/li/filter/thingDefs</xpath>
-					<value>
-						<li>Corpse_AEXP_Penguin</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBird"]/fixedIngredientFilter/thingDefs</xpath>
-					<value>
-						<li>Corpse_AEXP_Penguin</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs</xpath>
-					<value>
-						<GeneticRim.ExtractableAnimalsList>
-							<defName>GR_TierOneAnimalsAvianIceSheet</defName>
-							<tier>1</tier>
-							<itemProduced>GR_AvianGenetic</itemProduced>
-							<extractableAnimals>
-								<li>AEXP_Penguin</li>
-							</extractableAnimals>
-						</GeneticRim.ExtractableAnimalsList>
-					</value>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Odyssey</li>
+					</mods>
+					<nomatch Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBird"]/ingredients/li/filter/thingDefs</xpath>
+								<value>
+									<li>Corpse_AEXP_Penguin</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBird"]/fixedIngredientFilter/thingDefs</xpath>
+								<value>
+									<li>Corpse_AEXP_Penguin</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs</xpath>
+								<value>
+									<GeneticRim.ExtractableAnimalsList>
+										<defName>GR_TierOneAnimalsAvianIceSheet</defName>
+										<tier>1</tier>
+										<itemProduced>GR_AvianGenetic</itemProduced>
+										<extractableAnimals>
+											<li>AEXP_Penguin</li>
+										</extractableAnimals>
+									</GeneticRim.ExtractableAnimalsList>
+								</value>
+							</li>
+						</operations>
+					</nomatch>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesBird"]/ingredients/li/filter/thingDefs</xpath>
@@ -443,18 +441,50 @@
 						</GeneticRim.ExtractableAnimalsList>
 					</value>
 				</li>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Odyssey</li>
+					</mods>
+					<nomatch Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/ingredients/li/filter/thingDefs</xpath>
+								<value>
+									<li>Corpse_AEXP_Tiger</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/fixedIngredientFilter/thingDefs</xpath>
+								<value>
+									<li>Corpse_AEXP_Tiger</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs</xpath>
+								<value>
+									<GeneticRim.ExtractableAnimalsList>
+										<defName>GR_TierOneAnimalsFelineTropicalRainforest_NoOdyssey</defName>
+										<tier>1</tier>
+										<itemProduced>GR_FelineGenetic</itemProduced>
+										<extractableAnimals>
+											<li>AEXP_Tiger</li>
+										</extractableAnimals>
+									</GeneticRim.ExtractableAnimalsList>
+								</value>
+							</li>
+						</operations>
+					</nomatch>
+				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/ingredients/li/filter/thingDefs</xpath>
 					<value>
 						<li>Corpse_AEXP_Jaguar</li>
-						<li>Corpse_AEXP_Tiger</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesFeline"]/fixedIngredientFilter/thingDefs</xpath>
 					<value>
 						<li>Corpse_AEXP_Jaguar</li>
-						<li>Corpse_AEXP_Tiger</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -466,10 +496,31 @@
 							<itemProduced>GR_FelineGenetic</itemProduced>
 							<extractableAnimals>
 								<li>AEXP_Jaguar</li>
-								<li>AEXP_Tiger</li>
 							</extractableAnimals>
 						</GeneticRim.ExtractableAnimalsList>
 					</value>
+				</li>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Odyssey</li>
+					</mods>
+					<nomatch Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs</xpath>
+								<value>
+									<GeneticRim.ExtractableAnimalsList>
+										<defName>GR_TierTwoAnimalsReptileTropicalSwamp_NoOdyssey</defName>
+										<tier>2</tier>
+										<itemProduced>GR_ReptileGenetic</itemProduced>
+										<extractableAnimals>
+											<li>AEXP_Alligator</li>
+										</extractableAnimals>
+									</GeneticRim.ExtractableAnimalsList>
+								</value>
+							</li>
+						</operations>
+					</nomatch>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
@@ -479,61 +530,69 @@
 							<tier>2</tier>
 							<itemProduced>GR_ReptileGenetic</itemProduced>
 							<extractableAnimals>
-								<li>AEXP_Alligator</li>
 								<li>AEXP_Anaconda</li>
 							</extractableAnimals>
 						</GeneticRim.ExtractableAnimalsList>
 					</value>
 				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesRodent"]/ingredients/li/filter/thingDefs</xpath>
-					<value>
-						<li>Corpse_AEXP_Porcupine</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesRodent"]/fixedIngredientFilter/thingDefs</xpath>
-					<value>
-						<li>Corpse_AEXP_Porcupine</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/ingredients/li/filter/thingDefs</xpath>
-					<value>
-						<li>Corpse_AEXP_Muskox</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/fixedIngredientFilter/thingDefs</xpath>
-					<value>
-						<li>Corpse_AEXP_Muskox</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs</xpath>
-					<value>
-						<GeneticRim.ExtractableAnimalsList>
-							<defName>GR_TierOneAnimalsRodentTundra</defName>
-							<tier>1</tier>
-							<itemProduced>GR_RodentGenetic</itemProduced>
-							<extractableAnimals>
-								<li>AEXP_Porcupine</li>
-							</extractableAnimals>
-						</GeneticRim.ExtractableAnimalsList>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs</xpath>
-					<value>
-						<GeneticRim.ExtractableAnimalsList>
-							<defName>GR_TierOneAnimalsMuffaloTundra</defName>
-							<tier>1</tier>
-							<itemProduced>GR_MuffaloGenetic</itemProduced>
-							<extractableAnimals>
-								<li>AEXP_Muskox</li>
-							</extractableAnimals>
-						</GeneticRim.ExtractableAnimalsList>
-					</value>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Odyssey</li>
+					</mods>
+					<nomatch Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesRodent"]/ingredients/li/filter/thingDefs</xpath>
+								<value>
+									<li>Corpse_AEXP_Porcupine</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesRodent"]/fixedIngredientFilter/thingDefs</xpath>
+								<value>
+									<li>Corpse_AEXP_Porcupine</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/ingredients/li/filter/thingDefs</xpath>
+								<value>
+									<li>Corpse_AEXP_Muskox</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMuffalo"]/fixedIngredientFilter/thingDefs</xpath>
+								<value>
+									<li>Corpse_AEXP_Muskox</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs</xpath>
+								<value>
+									<GeneticRim.ExtractableAnimalsList>
+										<defName>GR_TierOneAnimalsRodentTundra</defName>
+										<tier>1</tier>
+										<itemProduced>GR_RodentGenetic</itemProduced>
+										<extractableAnimals>
+											<li>AEXP_Porcupine</li>
+										</extractableAnimals>
+									</GeneticRim.ExtractableAnimalsList>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs</xpath>
+								<value>
+									<GeneticRim.ExtractableAnimalsList>
+										<defName>GR_TierOneAnimalsMuffaloTundra</defName>
+										<tier>1</tier>
+										<itemProduced>GR_MuffaloGenetic</itemProduced>
+										<extractableAnimals>
+											<li>AEXP_Muskox</li>
+										</extractableAnimals>
+									</GeneticRim.ExtractableAnimalsList>
+								</value>
+							</li>
+						</operations>
+					</nomatch>
 				</li>
 			</operations>
 		</match>

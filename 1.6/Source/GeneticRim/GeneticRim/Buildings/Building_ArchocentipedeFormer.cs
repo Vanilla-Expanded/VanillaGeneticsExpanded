@@ -66,11 +66,11 @@ namespace GeneticRim
 
         }
 
-        protected override void Tick()
+        protected override void TickInterval(int delta)
         {
-            base.Tick();
+            base.TickInterval(delta);
 
-            if (this.IsHashIntervalTick(500))
+            if (this.IsHashIntervalTick(500, delta))
             {
                 List<Thing> listBanks = this.TryGetComp<CompAffectedByFacilities>()?.LinkedFacilitiesListForReading;
                 foreach (Thing thing in listBanks)
@@ -98,6 +98,11 @@ namespace GeneticRim
                 }
 
             }
+        }
+
+        protected override void Tick()
+        {
+            base.Tick();
 
             if (growthCellProgress!=-1) {
 

@@ -15,11 +15,11 @@ namespace GeneticRim
     {
         public CompProperties_RandomItemSpawner Props => (CompProperties_RandomItemSpawner)this.props;
 
-       
-        public override void CompTick()
+
+        public override void CompTickInterval(int delta)
         {
-            base.CompTick();
-            if (this.parent.IsHashIntervalTick(500))
+            base.CompTickInterval(delta);
+            if (this.parent.IsHashIntervalTick(500, delta))
             {
 
                 if (Find.CurrentMap.mapPawns.FreeColonistsSpawnedCount > 0)

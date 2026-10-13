@@ -25,10 +25,10 @@ namespace GeneticRim
 
         }
 
-        protected override void Tick()
+        protected override void TickInterval(int delta)
         {
-            base.Tick();
-            if (this.IsHashIntervalTick(checkingPeriod))
+            base.TickInterval(delta);
+            if (this.IsHashIntervalTick(checkingPeriod, delta))
             {
                 maxMechs = GeneticRim_Mod.settings.GR_HybridsPerAntenna;
                 foreach (Pawn pawn in assignedMechs)
